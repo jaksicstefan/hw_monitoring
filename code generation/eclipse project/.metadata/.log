@@ -1,0 +1,413 @@
+!SESSION 2016-06-25 20:59:42.213 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+This is a continuation of log file C:\HARMONIA_repo\code\code generation\eclipse project\.metadata\.bak_0.log
+Created Time: 2016-06-25 21:00:15.296
+!SESSION 2016-06-25 20:59:42.213 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2016-06-25 21:00:15.297
+!MESSAGE starting IvyDE plugin
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2016-06-25 21:00:15.427
+!MESSAGE IvyDE plugin started
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-06-25 21:00:28.453
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-06-25 21:00:28.456
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\JaksicS'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-07-01 09:24:32.775 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2016-07-01 09:25:21.791
+!MESSAGE starting IvyDE plugin
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2016-07-01 09:25:21.941
+!MESSAGE IvyDE plugin started
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-07-01 09:25:44.255
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-07-01 09:25:44.255
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'H:\'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-07-06 21:01:20.221 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2016-07-06 21:01:51.401
+!MESSAGE starting IvyDE plugin
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2016-07-06 21:01:51.531
+!MESSAGE IvyDE plugin started
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-07-06 21:02:03.602
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-07-06 21:02:03.612
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\JaksicS'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-07-28 16:35:08.350 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2016-07-28 16:35:36.255
+!MESSAGE starting IvyDE plugin
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2016-07-28 16:35:36.375
+!MESSAGE IvyDE plugin started
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-07-28 16:35:48.566
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-07-28 16:35:48.566
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\JaksicS'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-07-31 18:22:31.973 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2016-07-31 18:24:52.428
+!MESSAGE starting IvyDE plugin
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2016-07-31 18:24:52.561
+!MESSAGE IvyDE plugin started
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-07-31 18:25:04.861
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-07-31 18:25:04.871
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\JaksicS'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-08-10 18:07:49.213 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2016-08-10 18:10:48.760
+!MESSAGE starting IvyDE plugin
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2016-08-10 18:10:48.834
+!MESSAGE IvyDE plugin started
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-08-10 18:11:03.665
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-08-10 18:11:03.672
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'H:\'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-10-23 15:07:21.726 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2016-10-23 15:08:04.338
+!MESSAGE starting IvyDE plugin
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2016-10-23 15:08:04.398
+!MESSAGE IvyDE plugin started
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-10-23 15:08:15.670
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-10-23 15:08:15.674
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'H:\'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2016-11-25 10:20:31.002 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2016-11-25 10:21:13.616
+!MESSAGE starting IvyDE plugin
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2016-11-25 10:21:13.793
+!MESSAGE IvyDE plugin started
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-25 10:21:31.506
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-25 10:21:31.509
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\JaksicS'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-11-25 10:21:56.180
+!MESSAGE An internal error occurred during: "Setup check...".
+!STACK 0
+java.lang.ExceptionInInitializerError
+	at org.eclipse.oomph.setup.internal.core.SetupContext.createSelf(SetupContext.java:214)
+	at org.eclipse.oomph.setup.ui.SetupUIPlugin.performStartup(SetupUIPlugin.java:312)
+	at org.eclipse.oomph.setup.ui.SetupUIPlugin.access$3(SetupUIPlugin.java:241)
+	at org.eclipse.oomph.setup.ui.SetupUIPlugin$1$1.run(SetupUIPlugin.java:198)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.core.internal.runtime.InternalPlatform.getOS(InternalPlatform.java:395)
+	at org.eclipse.core.runtime.Platform.getOS(Platform.java:1167)
+	at org.eclipse.oomph.util.OS.create(OS.java:145)
+	at org.eclipse.oomph.util.OS.<clinit>(OS.java:29)
+	... 5 more
+!SESSION 2018-05-16 14:28:58.039 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.equinox.ds 2 0 2018-05-16 14:29:32.676
+!MESSAGE [SCR - WorkThread] Timeout occurred! Thread was blocked on processing [QueuedJob] WorkPerformer: org.eclipse.equinox.internal.ds.SCRManager@555b6c34; actionType 1
+
+!ENTRY org.eclipse.equinox.ds 2 0 2018-05-16 14:29:32.776
+!MESSAGE [SCR] Enabling components of bundle org.eclipse.update.configurator did not complete in 30000 ms 
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2018-05-16 14:30:06.876
+!MESSAGE starting IvyDE plugin
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2018-05-16 14:30:06.926
+!MESSAGE IvyDE plugin started
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-05-16 14:30:20.674
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-05-16 14:30:20.694
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'H:\'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.apache.ivyde.eclipse 4 4 2018-05-16 14:30:33.906
+!MESSAGE Some projects fail to be resolved
+!SUBENTRY 1 org.apache.ivyde.eclipse 4 0 2018-05-16 14:30:33.906
+!MESSAGE Failed to configure Ivy for ivy.xml[*] in monitor_genError while resolving the ivy instance for ivy.xml[*] in 'monitor_gen':
+  The Ivy settings path '${workspace_loc:sym_automata/ivysettings.xml}' is incorrect: Variable references non-existent resource : ${workspace_loc:sym_automata/ivysettings.xml}
+!STACK 0
+org.apache.ivyde.eclipse.IvyDEException: Error while resolving the ivy instance for ivy.xml[*] in 'monitor_gen':
+  The Ivy settings path '${workspace_loc:sym_automata/ivysettings.xml}' is incorrect: Variable references non-existent resource : ${workspace_loc:sym_automata/ivysettings.xml}
+	at org.apache.ivyde.internal.eclipse.CachedIvy.doGetIvy(CachedIvy.java:134)
+	at org.apache.ivyde.internal.eclipse.CachedIvy.getIvy(CachedIvy.java:124)
+	at org.apache.ivyde.internal.eclipse.resolve.IvyResolveJob.doRun(IvyResolveJob.java:145)
+	at org.apache.ivyde.internal.eclipse.resolve.IvyResolveJob.run(IvyResolveJob.java:85)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.core.runtime.CoreException: Variable references non-existent resource : ${workspace_loc:sym_automata/ivysettings.xml}
+	at org.eclipse.debug.internal.core.variables.WorkspaceResolver.resolveValue(WorkspaceResolver.java:66)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:56)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:269)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:192)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:87)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:592)
+	at org.apache.ivyde.eclipse.cp.ResolvedPath.resolvePath(ResolvedPath.java:90)
+	at org.apache.ivyde.eclipse.cp.ResolvedPath.<init>(ResolvedPath.java:49)
+	at org.apache.ivyde.eclipse.cp.SettingsSetup.getResolvedIvySettingsPath(SettingsSetup.java:59)
+	at org.apache.ivyde.internal.eclipse.cpcontainer.IvyClasspathContainerState.getIvySettingsPath(IvyClasspathContainerState.java:46)
+	at org.apache.ivyde.internal.eclipse.CachedIvy.doGetIvy(CachedIvy.java:132)
+	... 4 more
+!SUBENTRY 1 org.apache.ivyde.eclipse 4 0 2018-05-16 14:30:33.906
+!MESSAGE Failed to configure Ivy for ivy.xml[*] in monitor_genError while resolving the ivy instance for ivy.xml[*] in 'monitor_gen':
+  The Ivy settings path '${workspace_loc:sym_automata/ivysettings.xml}' is incorrect: Variable references non-existent resource : ${workspace_loc:sym_automata/ivysettings.xml}
+!STACK 0
+org.apache.ivyde.eclipse.IvyDEException: Error while resolving the ivy instance for ivy.xml[*] in 'monitor_gen':
+  The Ivy settings path '${workspace_loc:sym_automata/ivysettings.xml}' is incorrect: Variable references non-existent resource : ${workspace_loc:sym_automata/ivysettings.xml}
+	at org.apache.ivyde.internal.eclipse.CachedIvy.doGetIvy(CachedIvy.java:134)
+	at org.apache.ivyde.internal.eclipse.CachedIvy.getIvy(CachedIvy.java:124)
+	at org.apache.ivyde.internal.eclipse.resolve.IvyResolveJob.doRun(IvyResolveJob.java:145)
+	at org.apache.ivyde.internal.eclipse.resolve.IvyResolveJob.run(IvyResolveJob.java:85)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.core.runtime.CoreException: Variable references non-existent resource : ${workspace_loc:sym_automata/ivysettings.xml}
+	at org.eclipse.debug.internal.core.variables.WorkspaceResolver.resolveValue(WorkspaceResolver.java:66)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:56)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:269)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:192)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:87)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:592)
+	at org.apache.ivyde.eclipse.cp.ResolvedPath.resolvePath(ResolvedPath.java:90)
+	at org.apache.ivyde.eclipse.cp.ResolvedPath.<init>(ResolvedPath.java:49)
+	at org.apache.ivyde.eclipse.cp.SettingsSetup.getResolvedIvySettingsPath(SettingsSetup.java:59)
+	at org.apache.ivyde.internal.eclipse.cpcontainer.IvyClasspathContainerState.getIvySettingsPath(IvyClasspathContainerState.java:46)
+	at org.apache.ivyde.internal.eclipse.CachedIvy.doGetIvy(CachedIvy.java:132)
+	... 4 more
+!SUBENTRY 1 org.apache.ivyde.eclipse 4 0 2018-05-16 14:30:33.906
+!MESSAGE Failed to configure Ivy for ivy.xml[*] in monitor_genError while resolving the ivy instance for ivy.xml[*] in 'monitor_gen':
+  The Ivy settings path '${workspace_loc:sym_automata/ivysettings.xml}' is incorrect: Variable references non-existent resource : ${workspace_loc:sym_automata/ivysettings.xml}
+!STACK 0
+org.apache.ivyde.eclipse.IvyDEException: Error while resolving the ivy instance for ivy.xml[*] in 'monitor_gen':
+  The Ivy settings path '${workspace_loc:sym_automata/ivysettings.xml}' is incorrect: Variable references non-existent resource : ${workspace_loc:sym_automata/ivysettings.xml}
+	at org.apache.ivyde.internal.eclipse.CachedIvy.doGetIvy(CachedIvy.java:134)
+	at org.apache.ivyde.internal.eclipse.CachedIvy.getIvy(CachedIvy.java:124)
+	at org.apache.ivyde.internal.eclipse.resolve.IvyResolveJob.doRun(IvyResolveJob.java:145)
+	at org.apache.ivyde.internal.eclipse.resolve.IvyResolveJob.run(IvyResolveJob.java:85)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.core.runtime.CoreException: Variable references non-existent resource : ${workspace_loc:sym_automata/ivysettings.xml}
+	at org.eclipse.debug.internal.core.variables.WorkspaceResolver.resolveValue(WorkspaceResolver.java:66)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:56)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:269)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:192)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:87)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:592)
+	at org.apache.ivyde.eclipse.cp.ResolvedPath.resolvePath(ResolvedPath.java:90)
+	at org.apache.ivyde.eclipse.cp.ResolvedPath.<init>(ResolvedPath.java:49)
+	at org.apache.ivyde.eclipse.cp.SettingsSetup.getResolvedIvySettingsPath(SettingsSetup.java:59)
+	at org.apache.ivyde.internal.eclipse.cpcontainer.IvyClasspathContainerState.getIvySettingsPath(IvyClasspathContainerState.java:46)
+	at org.apache.ivyde.internal.eclipse.CachedIvy.doGetIvy(CachedIvy.java:132)
+	... 4 more
+
+!ENTRY org.apache.ivyde.eclipse 4 4 2018-05-16 14:34:32.428
+!MESSAGE Some projects fail to be resolved
+!SUBENTRY 1 org.apache.ivyde.eclipse 4 0 2018-05-16 14:34:32.428
+!MESSAGE Failed to configure Ivy for ivy.xml[*] in monitor_genError while resolving the ivy instance for ivy.xml[*] in 'monitor_gen':
+  The Ivy settings path '${workspace_loc:sym_automata/ivysettings.xml}' is incorrect: Variable references non-existent resource : ${workspace_loc:sym_automata/ivysettings.xml}
+!STACK 0
+org.apache.ivyde.eclipse.IvyDEException: Error while resolving the ivy instance for ivy.xml[*] in 'monitor_gen':
+  The Ivy settings path '${workspace_loc:sym_automata/ivysettings.xml}' is incorrect: Variable references non-existent resource : ${workspace_loc:sym_automata/ivysettings.xml}
+	at org.apache.ivyde.internal.eclipse.CachedIvy.doGetIvy(CachedIvy.java:134)
+	at org.apache.ivyde.internal.eclipse.CachedIvy.getIvy(CachedIvy.java:124)
+	at org.apache.ivyde.internal.eclipse.resolve.IvyResolveJob.doRun(IvyResolveJob.java:145)
+	at org.apache.ivyde.internal.eclipse.resolve.IvyResolveJob.run(IvyResolveJob.java:85)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.core.runtime.CoreException: Variable references non-existent resource : ${workspace_loc:sym_automata/ivysettings.xml}
+	at org.eclipse.debug.internal.core.variables.WorkspaceResolver.resolveValue(WorkspaceResolver.java:66)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:56)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:269)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:192)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:87)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:592)
+	at org.apache.ivyde.eclipse.cp.ResolvedPath.resolvePath(ResolvedPath.java:90)
+	at org.apache.ivyde.eclipse.cp.ResolvedPath.<init>(ResolvedPath.java:49)
+	at org.apache.ivyde.eclipse.cp.SettingsSetup.getResolvedIvySettingsPath(SettingsSetup.java:59)
+	at org.apache.ivyde.internal.eclipse.cpcontainer.IvyClasspathContainerState.getIvySettingsPath(IvyClasspathContainerState.java:46)
+	at org.apache.ivyde.internal.eclipse.CachedIvy.doGetIvy(CachedIvy.java:132)
+	... 4 more
+
+!ENTRY org.apache.ivyde.eclipse 4 4 2018-05-16 14:35:36.089
+!MESSAGE Some projects fail to be resolved
+!SUBENTRY 1 org.apache.ivyde.eclipse 4 0 2018-05-16 14:35:36.089
+!MESSAGE Failed to configure Ivy for ivy.xml[*] in monitor_genError while resolving the ivy instance for ivy.xml[*] in 'monitor_gen':
+  The Ivy settings path '${workspace_loc:sym_automata/ivysettings.xml}' is incorrect: Variable references non-existent resource : ${workspace_loc:sym_automata/ivysettings.xml}
+!STACK 0
+org.apache.ivyde.eclipse.IvyDEException: Error while resolving the ivy instance for ivy.xml[*] in 'monitor_gen':
+  The Ivy settings path '${workspace_loc:sym_automata/ivysettings.xml}' is incorrect: Variable references non-existent resource : ${workspace_loc:sym_automata/ivysettings.xml}
+	at org.apache.ivyde.internal.eclipse.CachedIvy.doGetIvy(CachedIvy.java:134)
+	at org.apache.ivyde.internal.eclipse.CachedIvy.getIvy(CachedIvy.java:124)
+	at org.apache.ivyde.internal.eclipse.resolve.IvyResolveJob.doRun(IvyResolveJob.java:145)
+	at org.apache.ivyde.internal.eclipse.resolve.IvyResolveJob.run(IvyResolveJob.java:85)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.core.runtime.CoreException: Variable references non-existent resource : ${workspace_loc:sym_automata/ivysettings.xml}
+	at org.eclipse.debug.internal.core.variables.WorkspaceResolver.resolveValue(WorkspaceResolver.java:66)
+	at org.eclipse.core.internal.variables.DynamicVariable.getValue(DynamicVariable.java:56)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.resolve(StringSubstitutionEngine.java:269)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.substitute(StringSubstitutionEngine.java:192)
+	at org.eclipse.core.internal.variables.StringSubstitutionEngine.performStringSubstitution(StringSubstitutionEngine.java:87)
+	at org.eclipse.core.internal.variables.StringVariableManager.performStringSubstitution(StringVariableManager.java:592)
+	at org.apache.ivyde.eclipse.cp.ResolvedPath.resolvePath(ResolvedPath.java:90)
+	at org.apache.ivyde.eclipse.cp.ResolvedPath.<init>(ResolvedPath.java:49)
+	at org.apache.ivyde.eclipse.cp.SettingsSetup.getResolvedIvySettingsPath(SettingsSetup.java:59)
+	at org.apache.ivyde.internal.eclipse.cpcontainer.IvyClasspathContainerState.getIvySettingsPath(IvyClasspathContainerState.java:46)
+	at org.apache.ivyde.internal.eclipse.CachedIvy.doGetIvy(CachedIvy.java:132)
+	... 4 more

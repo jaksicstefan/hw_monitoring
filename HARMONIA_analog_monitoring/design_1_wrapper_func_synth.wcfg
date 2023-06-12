@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="design_1_wrapper_func_synth.wdb" id="1">
+         <top_modules>
+            <top_module name="design_1_wrapper" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="37" />
+   <wvobject db_ref_id="1" fp_name="/design_1_wrapper/err" type="logic">
+      <obj_property name="ElementShortName">err</obj_property>
+      <obj_property name="ObjectShortName">err</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/mon_clk_out" type="logic">
+      <obj_property name="ElementShortName">mon_clk_out</obj_property>
+      <obj_property name="ObjectShortName">mon_clk_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/design_1_wrapper/predicate_out" type="logic">
+      <obj_property name="ElementShortName">predicate_out</obj_property>
+      <obj_property name="ObjectShortName">predicate_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/design_1_wrapper/satisfied" type="logic">
+      <obj_property name="ElementShortName">satisfied</obj_property>
+      <obj_property name="ObjectShortName">satisfied</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/design_1_wrapper/submon_sig_0" type="logic">
+      <obj_property name="ElementShortName">submon_sig_0</obj_property>
+      <obj_property name="ObjectShortName">submon_sig_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/design_1_wrapper/submon_sig_2" type="logic">
+      <obj_property name="ElementShortName">submon_sig_2</obj_property>
+      <obj_property name="ObjectShortName">submon_sig_2</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/design_1_wrapper/trigger_out" type="logic">
+      <obj_property name="ElementShortName">trigger_out</obj_property>
+      <obj_property name="ObjectShortName">trigger_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/design_1_wrapper/vn_in" type="logic">
+      <obj_property name="ElementShortName">vn_in</obj_property>
+      <obj_property name="ObjectShortName">vn_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/design_1_wrapper/vp_in" type="logic">
+      <obj_property name="ElementShortName">vp_in</obj_property>
+      <obj_property name="ObjectShortName">vp_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/processing_system7_0_FCLK_CLK0" type="logic">
+      <obj_property name="ElementShortName">processing_system7_0_FCLK_CLK0</obj_property>
+      <obj_property name="ObjectShortName">processing_system7_0_FCLK_CLK0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/processing_system7_0_FCLK_RESET0_N" type="logic">
+      <obj_property name="ElementShortName">processing_system7_0_FCLK_RESET0_N</obj_property>
+      <obj_property name="ObjectShortName">processing_system7_0_FCLK_RESET0_N</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/xadc_wiz_0_channel_out" type="array">
+      <obj_property name="ElementShortName">xadc_wiz_0_channel_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">xadc_wiz_0_channel_out[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/xadc_wiz_0_do_out" type="array">
+      <obj_property name="ElementShortName">xadc_wiz_0_do_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">xadc_wiz_0_do_out[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/xadc_wiz_0_eoc_out" type="logic">
+      <obj_property name="ElementShortName">xadc_wiz_0_eoc_out</obj_property>
+      <obj_property name="ObjectShortName">xadc_wiz_0_eoc_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/xlconcat_0_dout" type="array">
+      <obj_property name="ElementShortName">xlconcat_0_dout[6:0]</obj_property>
+      <obj_property name="ObjectShortName">xlconcat_0_dout[6:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/xlconstant_0_dout" type="array">
+      <obj_property name="ElementShortName">xlconstant_0_dout[1:0]</obj_property>
+      <obj_property name="ObjectShortName">xlconstant_0_dout[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/drdy_out" type="logic">
+      <obj_property name="ElementShortName">drdy_out</obj_property>
+      <obj_property name="ObjectShortName">drdy_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/mon_clk_in" type="logic">
+      <obj_property name="ElementShortName">mon_clk_in</obj_property>
+      <obj_property name="ObjectShortName">mon_clk_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/mon_err_out" type="logic">
+      <obj_property name="ElementShortName">mon_err_out</obj_property>
+      <obj_property name="ObjectShortName">mon_err_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/mon_pred_in" type="logic">
+      <obj_property name="ElementShortName">mon_pred_in</obj_property>
+      <obj_property name="ObjectShortName">mon_pred_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/mon_rst_in" type="logic">
+      <obj_property name="ElementShortName">mon_rst_in</obj_property>
+      <obj_property name="ObjectShortName">mon_rst_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/mon_trig_in" type="logic">
+      <obj_property name="ElementShortName">mon_trig_in</obj_property>
+      <obj_property name="ObjectShortName">mon_trig_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/new_gNot_0_not_a" type="logic">
+      <obj_property name="ElementShortName">new_gNot_0_not_a</obj_property>
+      <obj_property name="ObjectShortName">new_gNot_0_not_a</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/pred_block_0_predicatized_out" type="logic">
+      <obj_property name="ElementShortName">pred_block_0_predicatized_out</obj_property>
+      <obj_property name="ObjectShortName">pred_block_0_predicatized_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/predicate_out" type="logic">
+      <obj_property name="ElementShortName">predicate_out</obj_property>
+      <obj_property name="ObjectShortName">predicate_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/trigger_out" type="logic">
+      <obj_property name="ElementShortName">trigger_out</obj_property>
+      <obj_property name="ObjectShortName">trigger_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/u_ila_0_0_processing_system7_0_FCLK_CLK0" type="logic">
+      <obj_property name="ElementShortName">u_ila_0_0_processing_system7_0_FCLK_CLK0</obj_property>
+      <obj_property name="ObjectShortName">u_ila_0_0_processing_system7_0_FCLK_CLK0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="vbus255" type="vbus">
+      <obj_property name="label">U_ILA_DOUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Reversed">false</obj_property>
+      <obj_property name="ElementShortName">VirtualBus[]</obj_property>
+      <obj_property name="ObjectShortName">VirtualBus[]</obj_property>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/\u_ila_0_0_Dout[0] " type="logic">
+         <obj_property name="ElementShortName">\u_ila_0_0_Dout[0] </obj_property>
+         <obj_property name="ObjectShortName">\u_ila_0_0_Dout[0] </obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/\u_ila_0_0_Dout[1] " type="logic">
+         <obj_property name="ElementShortName">\u_ila_0_0_Dout[1] </obj_property>
+         <obj_property name="ObjectShortName">\u_ila_0_0_Dout[1] </obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/\u_ila_0_0_Dout[2] " type="logic">
+         <obj_property name="ElementShortName">\u_ila_0_0_Dout[2] </obj_property>
+         <obj_property name="ObjectShortName">\u_ila_0_0_Dout[2] </obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/\u_ila_0_0_Dout[3] " type="logic">
+         <obj_property name="ElementShortName">\u_ila_0_0_Dout[3] </obj_property>
+         <obj_property name="ObjectShortName">\u_ila_0_0_Dout[3] </obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/\u_ila_0_0_Dout[4] " type="logic">
+         <obj_property name="ElementShortName">\u_ila_0_0_Dout[4] </obj_property>
+         <obj_property name="ObjectShortName">\u_ila_0_0_Dout[4] </obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/\u_ila_0_0_Dout[5] " type="logic">
+         <obj_property name="ElementShortName">\u_ila_0_0_Dout[5] </obj_property>
+         <obj_property name="ObjectShortName">\u_ila_0_0_Dout[5] </obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/\u_ila_0_0_Dout[6] " type="logic">
+         <obj_property name="ElementShortName">\u_ila_0_0_Dout[6] </obj_property>
+         <obj_property name="ObjectShortName">\u_ila_0_0_Dout[6] </obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/\u_ila_0_0_Dout[7] " type="logic">
+         <obj_property name="ElementShortName">\u_ila_0_0_Dout[7] </obj_property>
+         <obj_property name="ObjectShortName">\u_ila_0_0_Dout[7] </obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/\u_ila_0_0_Dout[8] " type="logic">
+         <obj_property name="ElementShortName">\u_ila_0_0_Dout[8] </obj_property>
+         <obj_property name="ObjectShortName">\u_ila_0_0_Dout[8] </obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/\u_ila_0_0_Dout[9] " type="logic">
+         <obj_property name="ElementShortName">\u_ila_0_0_Dout[9] </obj_property>
+         <obj_property name="ObjectShortName">\u_ila_0_0_Dout[9] </obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/\u_ila_0_0_Dout[10] " type="logic">
+         <obj_property name="ElementShortName">\u_ila_0_0_Dout[10] </obj_property>
+         <obj_property name="ObjectShortName">\u_ila_0_0_Dout[10] </obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/\u_ila_0_0_Dout[11] " type="logic">
+         <obj_property name="ElementShortName">\u_ila_0_0_Dout[11] </obj_property>
+         <obj_property name="ObjectShortName">\u_ila_0_0_Dout[11] </obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/u_ila_0_0_drdy_out" type="logic">
+      <obj_property name="ElementShortName">u_ila_0_0_drdy_out</obj_property>
+      <obj_property name="ObjectShortName">u_ila_0_0_drdy_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/u_ila_0_0_mon_rst_in" type="logic">
+      <obj_property name="ElementShortName">u_ila_0_0_mon_rst_in</obj_property>
+      <obj_property name="ObjectShortName">u_ila_0_0_mon_rst_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/u_ila_0_0_xadc_wiz_0_eoc_out" type="logic">
+      <obj_property name="ElementShortName">u_ila_0_0_xadc_wiz_0_eoc_out</obj_property>
+      <obj_property name="ObjectShortName">u_ila_0_0_xadc_wiz_0_eoc_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="group254" type="group">
+      <obj_property name="label">CLK DIVIDER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/clk_divider_0/clk_in" type="logic">
+         <obj_property name="ElementShortName">clk_in</obj_property>
+         <obj_property name="ObjectShortName">clk_in</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/clk_divider_0/clk_out_fast" type="logic">
+         <obj_property name="ElementShortName">clk_out_fast</obj_property>
+         <obj_property name="ObjectShortName">clk_out_fast</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/clk_divider_0/clk_out_slow" type="logic">
+         <obj_property name="ElementShortName">clk_out_slow</obj_property>
+         <obj_property name="ObjectShortName">clk_out_slow</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/clk_divider_0/reset_n" type="logic">
+         <obj_property name="ElementShortName">reset_n</obj_property>
+         <obj_property name="ObjectShortName">reset_n</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group260" type="group">
+      <obj_property name="label">PRED BLOCK</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/pred_block_0/predicatized_out" type="logic">
+         <obj_property name="ElementShortName">predicatized_out</obj_property>
+         <obj_property name="ObjectShortName">predicatized_out</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/pred_block_0/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[11:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[11:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/pred_block_0/data_ready" type="logic">
+         <obj_property name="ElementShortName">data_ready</obj_property>
+         <obj_property name="ObjectShortName">data_ready</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group543" type="group">
+      <obj_property name="label">SUBMON1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance1/P" type="logic">
+         <obj_property name="ElementShortName">P</obj_property>
+         <obj_property name="ObjectShortName">P</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance1/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="vbus573" type="vbus">
+         <obj_property name="label">counter</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance1/\n_0_counter[0]_i_1 " type="logic">
+            <obj_property name="ElementShortName">\n_0_counter[0]_i_1 </obj_property>
+            <obj_property name="ObjectShortName">\n_0_counter[0]_i_1 </obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance1/\n_0_counter[1]_i_1 " type="logic">
+            <obj_property name="ElementShortName">\n_0_counter[1]_i_1 </obj_property>
+            <obj_property name="ObjectShortName">\n_0_counter[1]_i_1 </obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance1/\n_0_counter[2]_i_1 " type="logic">
+            <obj_property name="ElementShortName">\n_0_counter[2]_i_1 </obj_property>
+            <obj_property name="ObjectShortName">\n_0_counter[2]_i_1 </obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance1/\n_0_counter[3]_i_1 " type="logic">
+            <obj_property name="ElementShortName">\n_0_counter[3]_i_1 </obj_property>
+            <obj_property name="ObjectShortName">\n_0_counter[3]_i_1 </obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance1/\n_0_counter[4]_i_1 " type="logic">
+            <obj_property name="ElementShortName">\n_0_counter[4]_i_1 </obj_property>
+            <obj_property name="ObjectShortName">\n_0_counter[4]_i_1 </obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance1/\n_0_counter[5]_i_1 " type="logic">
+            <obj_property name="ElementShortName">\n_0_counter[5]_i_1 </obj_property>
+            <obj_property name="ObjectShortName">\n_0_counter[5]_i_1 </obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance1/\n_0_counter[5]_i_2 " type="logic">
+            <obj_property name="ElementShortName">\n_0_counter[5]_i_2 </obj_property>
+            <obj_property name="ObjectShortName">\n_0_counter[5]_i_2 </obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance1/\n_0_counter[5]_i_3 " type="logic">
+            <obj_property name="ElementShortName">\n_0_counter[5]_i_3 </obj_property>
+            <obj_property name="ObjectShortName">\n_0_counter[5]_i_3 </obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance1/\n_0_counter[6]_i_1 " type="logic">
+            <obj_property name="ElementShortName">\n_0_counter[6]_i_1 </obj_property>
+            <obj_property name="ObjectShortName">\n_0_counter[6]_i_1 </obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance1/\n_0_counter[6]_i_2 " type="logic">
+            <obj_property name="ElementShortName">\n_0_counter[6]_i_2 </obj_property>
+            <obj_property name="ObjectShortName">\n_0_counter[6]_i_2 </obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance1/\n_0_counter[6]_i_3 " type="logic">
+            <obj_property name="ElementShortName">\n_0_counter[6]_i_3 </obj_property>
+            <obj_property name="ObjectShortName">\n_0_counter[6]_i_3 </obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance1/\n_0_counter[6]_i_4 " type="logic">
+            <obj_property name="ElementShortName">\n_0_counter[6]_i_4 </obj_property>
+            <obj_property name="ObjectShortName">\n_0_counter[6]_i_4 </obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="vbus688" type="vbus">
+         <wvobject db_ref_id="1" fp_name="vbus574" type="vbus">
+            <obj_property name="label">counter REG</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="Reversed">true</obj_property>
+            <obj_property name="ElementShortName">VirtualBus[]</obj_property>
+            <obj_property name="ObjectShortName">VirtualBus[]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance1/\n_0_counter_reg[0] " type="logic">
+               <obj_property name="ElementShortName">\n_0_counter_reg[0] </obj_property>
+               <obj_property name="ObjectShortName">\n_0_counter_reg[0] </obj_property>
+            </wvobject>
+            <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance1/\n_0_counter_reg[1] " type="logic">
+               <obj_property name="ElementShortName">\n_0_counter_reg[1] </obj_property>
+               <obj_property name="ObjectShortName">\n_0_counter_reg[1] </obj_property>
+            </wvobject>
+            <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance1/\n_0_counter_reg[2] " type="logic">
+               <obj_property name="ElementShortName">\n_0_counter_reg[2] </obj_property>
+               <obj_property name="ObjectShortName">\n_0_counter_reg[2] </obj_property>
+            </wvobject>
+            <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance1/\n_0_counter_reg[3] " type="logic">
+               <obj_property name="ElementShortName">\n_0_counter_reg[3] </obj_property>
+               <obj_property name="ObjectShortName">\n_0_counter_reg[3] </obj_property>
+            </wvobject>
+            <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance1/\n_0_counter_reg[4] " type="logic">
+               <obj_property name="ElementShortName">\n_0_counter_reg[4] </obj_property>
+               <obj_property name="ObjectShortName">\n_0_counter_reg[4] </obj_property>
+            </wvobject>
+            <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance1/\n_0_counter_reg[5] " type="logic">
+               <obj_property name="ElementShortName">\n_0_counter_reg[5] </obj_property>
+               <obj_property name="ObjectShortName">\n_0_counter_reg[5] </obj_property>
+            </wvobject>
+            <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance1/\n_0_counter_reg[6] " type="logic">
+               <obj_property name="ElementShortName">\n_0_counter_reg[6] </obj_property>
+               <obj_property name="ObjectShortName">\n_0_counter_reg[6] </obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance1/\n_0_state[0]_i_1 " type="logic">
+         <obj_property name="ElementShortName">\n_0_state[0]_i_1 </obj_property>
+         <obj_property name="ObjectShortName">\n_0_state[0]_i_1 </obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance1/\n_0_state[0]_i_2 " type="logic">
+         <obj_property name="ElementShortName">\n_0_state[0]_i_2 </obj_property>
+         <obj_property name="ObjectShortName">\n_0_state[0]_i_2 </obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance1/n_0_u_i_1" type="logic">
+         <obj_property name="ElementShortName">n_0_u_i_1</obj_property>
+         <obj_property name="ObjectShortName">n_0_u_i_1</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance1/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance1/state" type="array">
+         <obj_property name="ElementShortName">state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">state[1:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance1/u" type="logic">
+         <obj_property name="ElementShortName">u</obj_property>
+         <obj_property name="ObjectShortName">u</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group572" type="group">
+      <obj_property name="label">SUBMON2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance2/O1" type="logic">
+         <obj_property name="ElementShortName">O1</obj_property>
+         <obj_property name="ObjectShortName">O1</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance2/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance2/\n_0_counter[0]_i_1__0 " type="logic">
+         <obj_property name="ElementShortName">\n_0_counter[0]_i_1__0 </obj_property>
+         <obj_property name="ObjectShortName">\n_0_counter[0]_i_1__0 </obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance2/\n_0_counter[1]_i_2 " type="logic">
+         <obj_property name="ElementShortName">\n_0_counter[1]_i_2 </obj_property>
+         <obj_property name="ObjectShortName">\n_0_counter[1]_i_2 </obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance2/\n_0_counter[5]_i_2__0 " type="logic">
+         <obj_property name="ElementShortName">\n_0_counter[5]_i_2__0 </obj_property>
+         <obj_property name="ObjectShortName">\n_0_counter[5]_i_2__0 </obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance2/\n_0_counter[7]_i_1 " type="logic">
+         <obj_property name="ElementShortName">\n_0_counter[7]_i_1 </obj_property>
+         <obj_property name="ObjectShortName">\n_0_counter[7]_i_1 </obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance2/\n_0_counter[7]_i_3 " type="logic">
+         <obj_property name="ElementShortName">\n_0_counter[7]_i_3 </obj_property>
+         <obj_property name="ObjectShortName">\n_0_counter[7]_i_3 </obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance2/\n_0_counter[7]_i_4 " type="logic">
+         <obj_property name="ElementShortName">\n_0_counter[7]_i_4 </obj_property>
+         <obj_property name="ObjectShortName">\n_0_counter[7]_i_4 </obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance2/\n_0_counter[7]_i_5 " type="logic">
+         <obj_property name="ElementShortName">\n_0_counter[7]_i_5 </obj_property>
+         <obj_property name="ObjectShortName">\n_0_counter[7]_i_5 </obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance2/\n_0_counter[7]_i_6 " type="logic">
+         <obj_property name="ElementShortName">\n_0_counter[7]_i_6 </obj_property>
+         <obj_property name="ObjectShortName">\n_0_counter[7]_i_6 </obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance2/\n_0_counter_reg[0] " type="logic">
+         <obj_property name="ElementShortName">\n_0_counter_reg[0] </obj_property>
+         <obj_property name="ObjectShortName">\n_0_counter_reg[0] </obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance2/\n_0_counter_reg[1] " type="logic">
+         <obj_property name="ElementShortName">\n_0_counter_reg[1] </obj_property>
+         <obj_property name="ObjectShortName">\n_0_counter_reg[1] </obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance2/\n_0_counter_reg[2] " type="logic">
+         <obj_property name="ElementShortName">\n_0_counter_reg[2] </obj_property>
+         <obj_property name="ObjectShortName">\n_0_counter_reg[2] </obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance2/\n_0_counter_reg[3] " type="logic">
+         <obj_property name="ElementShortName">\n_0_counter_reg[3] </obj_property>
+         <obj_property name="ObjectShortName">\n_0_counter_reg[3] </obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance2/\n_0_counter_reg[4] " type="logic">
+         <obj_property name="ElementShortName">\n_0_counter_reg[4] </obj_property>
+         <obj_property name="ObjectShortName">\n_0_counter_reg[4] </obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance2/\n_0_counter_reg[5] " type="logic">
+         <obj_property name="ElementShortName">\n_0_counter_reg[5] </obj_property>
+         <obj_property name="ObjectShortName">\n_0_counter_reg[5] </obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance2/\n_0_counter_reg[6] " type="logic">
+         <obj_property name="ElementShortName">\n_0_counter_reg[6] </obj_property>
+         <obj_property name="ObjectShortName">\n_0_counter_reg[6] </obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance2/\n_0_counter_reg[7] " type="logic">
+         <obj_property name="ElementShortName">\n_0_counter_reg[7] </obj_property>
+         <obj_property name="ObjectShortName">\n_0_counter_reg[7] </obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance2/\n_0_state[0]_i_1 " type="logic">
+         <obj_property name="ElementShortName">\n_0_state[0]_i_1 </obj_property>
+         <obj_property name="ObjectShortName">\n_0_state[0]_i_1 </obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance2/\n_0_state[0]_i_2__0 " type="logic">
+         <obj_property name="ElementShortName">\n_0_state[0]_i_2__0 </obj_property>
+         <obj_property name="ObjectShortName">\n_0_state[0]_i_2__0 </obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance2/n_0_u_i_1__0" type="logic">
+         <obj_property name="ElementShortName">n_0_u_i_1__0</obj_property>
+         <obj_property name="ObjectShortName">n_0_u_i_1__0</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance2/p_1_in" type="array">
+         <obj_property name="ElementShortName">p_1_in[7:1]</obj_property>
+         <obj_property name="ObjectShortName">p_1_in[7:1]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance2/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance2/satisfied" type="logic">
+         <obj_property name="ElementShortName">satisfied</obj_property>
+         <obj_property name="ObjectShortName">satisfied</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance2/state" type="array">
+         <obj_property name="ElementShortName">state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">state[1:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance2/submon_sig_0" type="logic">
+         <obj_property name="ElementShortName">submon_sig_0</obj_property>
+         <obj_property name="ObjectShortName">submon_sig_0</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance2/submon_sig_2" type="logic">
+         <obj_property name="ElementShortName">submon_sig_2</obj_property>
+         <obj_property name="ObjectShortName">submon_sig_2</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/inst/__submon_instance2/u" type="logic">
+         <obj_property name="ElementShortName">u</obj_property>
+         <obj_property name="ObjectShortName">u</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/P" type="logic">
+      <obj_property name="ElementShortName">P</obj_property>
+      <obj_property name="ObjectShortName">P</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/design_1_wrapper/design_1_i/stabilization_property_mon_0/P" type="logic">
+      <obj_property name="ElementShortName">P</obj_property>
+      <obj_property name="ObjectShortName">P</obj_property>
+   </wvobject>
+</wave_config>

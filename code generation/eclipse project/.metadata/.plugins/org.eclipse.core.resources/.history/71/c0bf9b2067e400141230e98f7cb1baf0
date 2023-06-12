@@ -1,0 +1,220 @@
+///////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 04/07/2015 02:31:46 PM
+// Design Name: 
+// Module Name: eventually_FIFO_RAM_buffer template
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+/////////////////////////////////////////////////////////////////////////
+//
+// FIFO GENERATED
+// STANDARD INTERFACE
+// FIRST WORD FALL THROUGH
+// WIDTH = 8
+// NUMBER OF ENTRIES = 2048
+// ALL DEBUG SIGNALS
+//
+////////////////////////////////////////////////////////////////////////
+//
+//   This is generated code. The buffer is 8 bits wide. Maximum number 
+//	 of entries in a buffer is 2048. Consequently, this monitor can buffer
+//   16382 bits (time units) at most.
+//
+////////////////////////////////////////////////////////////////////////
+
+module eventually_FIFO_RAM_buffer_x8_e2048 #(parameter A=0, B=1) (
+    input clk,
+    input rst,    
+    input XXX,
+    output err
+    );
+
+    localparam VARIABILITY = B - A;
+
+    //used to generate fifo_clk - N times slower than the system clock
+	reg [2:0] bit_cnt;
+	
+	reg [63:0] delay_cnt;
+	reg fifo_clk;
+	reg [7:0] din;
+	reg [7:0] dout;
+	
+	//fine grain delay
+	reg [7:0] fine_grain_dout;
+	reg [2:0] fine_grain_cnt;
+	
+	reg rd_en;
+	reg wr_en;
+	
+	reg was_rst;
+	
+	wire [7:0] dout_w;
+	wire ev_out;
+	wire full;
+	wire empty;
+	wire wr_ack;
+	wire overflow;
+	wire valid;
+	wire underflow;
+	
+	reg err_out;
+	    
+    eventually_MTLB_monitor#(VARIABILITY) ev_mon (
+      .clk(clk),
+      .rst(rst),
+      .XXX(XXX),
+      .err(ev_out)   //TODO - consider whether we should actually use error signal.
+    );
+    
+    always @(fine_grain_cnt) begin    
+    ///prevent the garbage coming out of the buffer
+      //if ((A % 8) == 1'b1) fine_grain_dout <= dout; //no waiting
+      //else 
+      if (fine_grain_cnt == 3'b000) fine_grain_dout <= dout;
+    end
+    
+    //creating bit counter and fine grain counter
+    always @(posedge clk) begin
+      if (rst == 1'b1) begin
+        bit_cnt <= 3'b111;
+        fine_grain_cnt <= 3'b111;
+      end  
+      else begin
+        bit_cnt <= bit_cnt + 1'b1 ;
+      
+        if (bit_cnt == 3'b111) begin
+          fine_grain_cnt <= 8 - ((A % 8) - 1);
+        end
+        else begin
+          fine_grain_cnt <= fine_grain_cnt + 1'b1;
+        end      
+      end
+    end
+    
+    always @(posedge clk) begin
+      if (rst == 1'b1) begin
+        //bit_cnt <= 1'b0;
+        din <= 8'hFF;
+      end  
+      else begin
+        din[7:7] <= ev_out;
+        din[6:0] <= din[7:1];
+      end
+    end
+    
+    //generate fifo clk(twice slower)
+    always @(posedge clk) begin
+      if (rst == 1'b1) begin
+        fifo_clk <= 1'b0;
+        was_rst <= 1'b1;
+      end      
+      else begin
+        //generate clock edge
+//        if (bit_cnt[1:0] == 2'b11) 
+//            if (was_rst == 1'b1) fifo_clk <= !fifo_clk ^ was_rst;
+        
+        if (was_rst == 1'b1) begin
+          if (bit_cnt[2:0] == 3'b111) begin
+            fifo_clk <= 1'b0;
+          end
+          else if (bit_cnt[2:0] == 3'b110) begin
+            //fifo_clk <= 1'b0;
+            was_rst <= 1'b0;
+          end
+        end
+        else begin
+          if (bit_cnt[1:0] == 2'b11) begin  
+            fifo_clk <= !fifo_clk;
+          end
+        end                    
+      end
+    end
+    
+    //generating wr_en, rd_en
+    always @(posedge clk) begin
+      if (rst == 1'b1) begin
+        //delay_cnt <= (A - 8) ;  //5 is the delay introduced by buffers.
+        
+        if (( A%8) == 1'b0) begin
+          delay_cnt <= (A - (A%8) - 16 - 8) ;  //2 FIFO CLK of garbage data , 8 ordinary cycles due to buffering , A- A%8 to get aligned
+        end
+        else if ((A%8) == 1'b1) begin
+          delay_cnt <= (A - (A%8) - 16 - 8) ;  //handling "zero" fine grain delay by shortening the delay time by one FIFO Clk
+        end
+        else begin 
+          delay_cnt <= (A - (A%8) - 16) ;
+        end
+        
+        //buffering introduces 2 cycles of delay in FIFO CLK
+        //Therefore we must speed it up here by 16
+        rd_en <= 1'b0;
+        wr_en <= 1'b0;
+      end      
+      else begin
+        //generate clock edge
+        wr_en <= 1'b1;
+        if (delay_cnt == 10'h000) begin
+          rd_en <= 1'b1;
+        end
+        else
+          delay_cnt <= delay_cnt - 1'b1;
+      end
+    end
+
+    always @(posedge fifo_clk) begin
+      if (rst == 1'b1) begin
+      end      
+      else begin
+        if (delay_cnt[9:0] <= 10'h001) begin
+            dout[7:0] <= dout_w;
+        end
+      end
+    end
+    
+    //assign err = ( bit_cnt == 1'b1 )? dout[0:0] : dout[1:1];
+    
+    always @ (fine_grain_dout or fine_grain_cnt)
+    begin
+      case (fine_grain_cnt)
+        3'b000: err_out = fine_grain_dout[0:0];
+        3'b001: err_out = fine_grain_dout[1:1];
+        3'b010: err_out = fine_grain_dout[2:2];
+        3'b011: err_out = fine_grain_dout[3:3];
+        3'b100: err_out = fine_grain_dout[4:4];
+        3'b101: err_out = fine_grain_dout[5:5];
+        3'b110: err_out = fine_grain_dout[6:6];
+        3'b111: err_out = fine_grain_dout[7:7];
+      endcase
+    end 
+    
+    assign err = err_out;
+    
+   
+    //x8 FIFO buffer
+    generated_fifo_buffer_x8 my_buffer_behavioral (
+      .clk(fifo_clk), // input clk
+      .srst(rst), // input srst
+      .din(din), // input [7 : 0] din
+      .wr_en(wr_en), // input wr_en
+      .rd_en(rd_en), // input rd_en
+      .dout(dout_w), // output [7 : 0] dout
+      .full(full), // output full
+      .wr_ack(wr_ack), // output wr_ack
+      .overflow(overflow), // output overflow
+      .empty(empty), // output empty
+      .valid(valid), // output valid
+      .underflow(underflow) // output underflow
+    );
+
+endmodule

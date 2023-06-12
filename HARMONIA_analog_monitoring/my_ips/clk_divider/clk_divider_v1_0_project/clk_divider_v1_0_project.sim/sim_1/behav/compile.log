@@ -1,0 +1,5 @@
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/phd/vivado_projects/parallella-hw/fpga/projects/harmonia_analog_monitoring/my_ips/clk_divider/clk_divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/phd/vivado_projects/parallella-hw/fpga/projects/harmonia_analog_monitoring/my_ips/clk_divider/clk_divider_v1_0_project/clk_divider_v1_0_project.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

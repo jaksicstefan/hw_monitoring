@@ -1,0 +1,6 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../../src/shift_reg_buffer.v"
+verilog xil_defaultlib  "../../../../stabilization_property_mon.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"

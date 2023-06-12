@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Sun May 03 22:42:46 2015
+# Process ID: 10176
+# Log file: C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/my_ips/vivado.log
+# Journal file: C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/my_ips\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/my_ips/stabilization_prop_mon_generic.xpr
+launch_runs synth_1
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1

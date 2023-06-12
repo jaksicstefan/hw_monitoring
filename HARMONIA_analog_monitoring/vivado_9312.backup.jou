@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Tue Oct 17 17:08:36 2017
+# Process ID: 2144
+# Log file: C:/HARMONIA_repo/HARMONIA_analog_monitoring/vivado.log
+# Journal file: C:/HARMONIA_repo/HARMONIA_analog_monitoring\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/HARMONIA_repo/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.xpr
+update_compile_order -fileset sources_1

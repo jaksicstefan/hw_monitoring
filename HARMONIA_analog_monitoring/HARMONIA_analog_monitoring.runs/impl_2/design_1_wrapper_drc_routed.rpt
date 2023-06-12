@@ -1,0 +1,53 @@
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:29:27 MST 2014
+| Date         : Thu Aug 20 10:02:46 2015
+| Host         : N3SAS1408 running 64-bit Service Pack 1  (build 7601)
+| Command      : report_drc
+------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: checkpoint_design_1_wrapper
+      Design limits: <entire design considered>
+           Ruledeck: default
+           Max violations: <unlimited>
+         Violations found: 3
+
+2. REPORT DETAILS
+-----------------
+ADEF-911#1 Warning
+SIM_DEVICE_arch_mismatch  
+Cell design_1_i/xadc_wiz_0/inst has the SIM_DEVICE attribute set to ZYNQ, but the current architecture is ZYNQ. The SIM_DEVICE attribute must match the loaded architecture. To correct this issue set the SIM_DEVICE attribute for this cell to 7SERIES.
+Related violations: <none>
+
+CFGBVS-1#1 Warning
+Missing CFGBVS and CONFIG_VOLTAGE Design Properties  
+Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_design.  Configuration bank voltage select (CFGBVS) must be set to VCCO or GND, and CONFIG_VOLTAGE must be set to the correct configuration voltage, in order to determine the I/O voltage support for the pins in bank 0.  It is suggested to specify these either using the 'Edit Device Properties' function in the GUI or directly in the XDC file using the following syntax:
+
+ set_property CFGBVS value1 [current_design]
+ #where value1 is either VCCO or GND
+
+ set_property CONFIG_VOLTAGE value2 [current_design]
+ #where value2 is the voltage provided to configuration bank 0
+
+Refer to the device configuration user guide for more information.
+Related violations: <none>
+
+XDCB-1#1 Warning
+Runtime intensive exceptions  
+The following constraint contains more than 1000 objects. To preserve runtime and memory performance, it is recommended to include minimum number of objects. Check whether this list can be simplified.
+-from = 2016
+set_false_path -from [get_pins -hierarchical -filter {NAME =~ *allx_typeA_match_detection.ltlib_v1_0_allx_typeA_inst/DUT/I_WHOLE_SLICE.G_SLICE_IDX[*]....
+c:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.runs/impl_2/.Xil/Vivado-14800-N3SAS1408/u_ila_0_CV.0/out/ila.xdc (Line: 20)
+Related violations: <none>
+
+

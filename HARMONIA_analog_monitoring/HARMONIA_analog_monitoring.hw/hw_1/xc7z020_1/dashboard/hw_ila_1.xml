@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+    <DashboardHolder activeDashboard="ILA">
+        <Dashboard columnResizable="1" key="ILA" rowResizable="0" title="ILA">
+            <Settings/>
+            <GadgetContainer boxAxis="1" count="3" height="750"
+                layout="JideBoxLayout" vgap="6" width="807">
+                <Gadget height="131" key="Trigger Capture Status" width="807"/>
+                <Gadget height="144" key="Basic Trigger Setup" width="807">
+                    <Probe name="design_1_i/mon_trig_in"/>
+                </Gadget>
+                <Gadget height="455" key="Basic Capture Setup" width="807">
+                    <Probe name="design_1_i/drdy_out"/>
+                </Gadget>
+                <Settings/>
+            </GadgetContainer>
+        </Dashboard>
+    </DashboardHolder>
+</component>

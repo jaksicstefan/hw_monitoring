@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<bd:repository xmlns:bd="http://www.xilinx.com/bd" bd:synthFlowMode="None" bd:tool_version="2014.4" bd:top="design_1" bd:version="1.00.a">
+
+  <spirit:component xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009">
+    <spirit:vendor>xilinx.com</spirit:vendor>
+    <spirit:library>BlockDiagram</spirit:library>
+    <spirit:name>design_1</spirit:name>
+    <spirit:version>1.00.a</spirit:version>
+    <spirit:parameters>
+      <spirit:parameter>
+        <spirit:name>isTop</spirit:name>
+        <spirit:value spirit:format="bool" spirit:resolve="immediate">true</spirit:value>
+      </spirit:parameter>
+    </spirit:parameters>
+    <spirit:busInterfaces>
+      <spirit:busInterface>
+        <spirit:name>DDR</spirit:name>
+        <spirit:master/>
+        <spirit:busType spirit:library="interface" spirit:name="ddrx" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:abstractionType spirit:library="interface" spirit:name="ddrx_rtl" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+      </spirit:busInterface>
+      <spirit:busInterface>
+        <spirit:name>FIXED_IO</spirit:name>
+        <spirit:master/>
+        <spirit:busType spirit:library="display_processing_system7" spirit:name="fixedio" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:abstractionType spirit:library="display_processing_system7" spirit:name="fixedio_rtl" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+      </spirit:busInterface>
+    </spirit:busInterfaces>
+    <spirit:model>
+      <spirit:views>
+        <spirit:view>
+          <spirit:name>BlockDiagram</spirit:name>
+          <spirit:envIdentifier>:vivado.xilinx.com:</spirit:envIdentifier>
+          <spirit:hierarchyRef spirit:library="BlockDiagram" spirit:name="design_1_imp" spirit:vendor="xilinx.com" spirit:version="1.00.a"/>
+        </spirit:view>
+      </spirit:views>
+      <spirit:ports>
+        <spirit:port>
+          <spirit:name>vn_in</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>vp_in</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>err</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>satisfied</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>mon_clk_out</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>trigger_out</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>predicate_out</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>submon_sig_0</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>submon_sig_2</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+      </spirit:ports>
+    </spirit:model>
+  </spirit:component>
+
+  <spirit:design xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009">
+    <spirit:vendor>xilinx.com</spirit:vendor>
+    <spirit:library>BlockDiagram</spirit:library>
+    <spirit:name>design_1_imp</spirit:name>
+    <spirit:version>1.00.a</spirit:version>
+    <spirit:componentInstances>
+      <spirit:componentInstance>
+        <spirit:instanceName>processing_system7_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="processing_system7" spirit:vendor="xilinx.com" spirit:version="5.5"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_processing_system7_0_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>xadc_wiz_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="xadc_wiz" spirit:vendor="xilinx.com" spirit:version="3.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_xadc_wiz_0_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="INTERFACE_SELECTION">ENABLE_DRP</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="SIM_FILE_SEL">Default</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="WAVEFORM_TYPE">SQUARE</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="TIMING_MODE">Continuous</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="ENABLE_CALIBRATION_AVERAGING">false</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="ENABLE_RESET">true</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="OT_ALARM">false</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="USER_TEMP_ALARM">false</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="VCCINT_ALARM">false</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="VCCAUX_ALARM">false</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="ENABLE_VCCPINT_ALARM">false</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="ENABLE_VCCPAUX_ALARM">false</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="ENABLE_VCCDDRO_ALARM">false</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="SINGLE_CHANNEL_SELECTION">VP_VN</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="ACQUISITION_TIME">4</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>xlconcat_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="xlconcat" spirit:vendor="xilinx.com" spirit:version="2.1"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_xlconcat_0_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="IN0_WIDTH">5</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="IN1_WIDTH">2</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>xlslice_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="xlslice" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_xlslice_0_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="DIN_TO">4</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="DIN_FROM">15</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="DIN_WIDTH">16</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>xlconstant_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="xlconstant" spirit:vendor="xilinx.com" spirit:version="1.1"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_xlconstant_0_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="CONST_WIDTH">2</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="CONST_VAL">00</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>new_gNot_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="new_gNot" spirit:vendor="arc.local" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_new_gNot_0_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>pred_block_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="pred_block" spirit:vendor="arc.local" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_pred_block_0_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="THRESHOLD">2048</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>new_gNot_1</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="new_gNot" spirit:vendor="arc.local" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_new_gNot_0_1</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>new_gNot_2</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="new_gNot" spirit:vendor="arc.local" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_new_gNot_2_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>clk_divider_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="clk_divider" spirit:vendor="arc.local" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_clk_divider_0_2</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>stabilization_property_mon_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="stabilization_property_mon" spirit:vendor="arc.local" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_stabilization_property_mon_0_2</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="DIV_TIME">200</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="STAB_TIME">100</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+    </spirit:componentInstances>
+    <spirit:interconnections/>
+    <spirit:adHocConnections>
+      <spirit:adHocConnection>
+        <spirit:name>vn_in_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="vn_in"/>
+        <spirit:internalPortReference spirit:componentRef="xadc_wiz_0" spirit:portRef="vn_in"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>vp_in_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="vp_in"/>
+        <spirit:internalPortReference spirit:componentRef="xadc_wiz_0" spirit:portRef="vp_in"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xadc_wiz_0_eoc_out</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xadc_wiz_0" spirit:portRef="eoc_out"/>
+        <spirit:internalPortReference spirit:componentRef="xadc_wiz_0" spirit:portRef="den_in"/>
+        <bd:hdl_attributes>
+          <bd:hdl_attribute bd:name="MARK_DEBUG" bd:value="true"/>
+        </bd:hdl_attributes>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xlconcat_0_dout</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xlconcat_0" spirit:portRef="dout"/>
+        <spirit:internalPortReference spirit:componentRef="xadc_wiz_0" spirit:portRef="daddr_in"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xadc_wiz_0_do_out</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xadc_wiz_0" spirit:portRef="do_out"/>
+        <spirit:internalPortReference spirit:componentRef="xlslice_0" spirit:portRef="Din"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>Dout</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xlslice_0" spirit:portRef="Dout"/>
+        <spirit:internalPortReference spirit:componentRef="pred_block_0" spirit:portRef="data_in"/>
+        <bd:hdl_attributes>
+          <bd:hdl_attribute bd:name="MARK_DEBUG" bd:value="true"/>
+        </bd:hdl_attributes>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xlconstant_0_dout</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xlconstant_0" spirit:portRef="dout"/>
+        <spirit:internalPortReference spirit:componentRef="xlconcat_0" spirit:portRef="In1"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xadc_wiz_0_channel_out</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xadc_wiz_0" spirit:portRef="channel_out"/>
+        <spirit:internalPortReference spirit:componentRef="xlconcat_0" spirit:portRef="In0"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>drdy_out</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xadc_wiz_0" spirit:portRef="drdy_out"/>
+        <spirit:internalPortReference spirit:componentRef="pred_block_0" spirit:portRef="data_ready"/>
+        <bd:hdl_attributes>
+          <bd:hdl_attribute bd:name="MARK_DEBUG" bd:value="true"/>
+        </bd:hdl_attributes>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>pred_block_0_predicatized_out</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="pred_block_0" spirit:portRef="predicatized_out"/>
+        <spirit:internalPortReference spirit:componentRef="new_gNot_1" spirit:portRef="a"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>processing_system7_0_FCLK_CLK0</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="processing_system7_0" spirit:portRef="FCLK_CLK0"/>
+        <spirit:internalPortReference spirit:componentRef="processing_system7_0" spirit:portRef="M_AXI_GP0_ACLK"/>
+        <spirit:internalPortReference spirit:componentRef="xadc_wiz_0" spirit:portRef="dclk_in"/>
+        <spirit:internalPortReference spirit:componentRef="clk_divider_0" spirit:portRef="clk_in"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>mon_err_out</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="stabilization_property_mon_0" spirit:portRef="err"/>
+        <spirit:externalPortReference spirit:portRef="err"/>
+        <bd:hdl_attributes>
+          <bd:hdl_attribute bd:name="MARK_DEBUG" bd:value="true"/>
+        </bd:hdl_attributes>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>mon_sat_out</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="stabilization_property_mon_0" spirit:portRef="satisfied"/>
+        <spirit:externalPortReference spirit:portRef="satisfied"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>mon_clk_in</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="clk_divider_0" spirit:portRef="clk_out_fast"/>
+        <spirit:externalPortReference spirit:portRef="mon_clk_out"/>
+        <spirit:internalPortReference spirit:componentRef="stabilization_property_mon_0" spirit:portRef="clk"/>
+        <bd:hdl_attributes>
+          <bd:hdl_attribute bd:name="MARK_DEBUG" bd:value="true"/>
+        </bd:hdl_attributes>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>mon_trig_in</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="clk_divider_0" spirit:portRef="clk_out_slow"/>
+        <spirit:externalPortReference spirit:portRef="trigger_out"/>
+        <spirit:internalPortReference spirit:componentRef="stabilization_property_mon_0" spirit:portRef="trigger"/>
+        <bd:hdl_attributes>
+          <bd:hdl_attribute bd:name="MARK_DEBUG" bd:value="true"/>
+        </bd:hdl_attributes>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>mon_pred_in</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="new_gNot_1" spirit:portRef="not_a"/>
+        <spirit:externalPortReference spirit:portRef="predicate_out"/>
+        <spirit:internalPortReference spirit:componentRef="stabilization_property_mon_0" spirit:portRef="P"/>
+        <bd:hdl_attributes>
+          <bd:hdl_attribute bd:name="MARK_DEBUG" bd:value="true"/>
+        </bd:hdl_attributes>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>mon_rst_in</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="new_gNot_2" spirit:portRef="not_a"/>
+        <spirit:internalPortReference spirit:componentRef="stabilization_property_mon_0" spirit:portRef="rst"/>
+        <bd:hdl_attributes>
+          <bd:hdl_attribute bd:name="MARK_DEBUG" bd:value="true"/>
+        </bd:hdl_attributes>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>processing_system7_0_FCLK_RESET0_N</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="processing_system7_0" spirit:portRef="FCLK_RESET0_N"/>
+        <spirit:internalPortReference spirit:componentRef="new_gNot_0" spirit:portRef="a"/>
+        <spirit:internalPortReference spirit:componentRef="new_gNot_2" spirit:portRef="a"/>
+        <spirit:internalPortReference spirit:componentRef="clk_divider_0" spirit:portRef="reset_n"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>new_gNot_0_not_a</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="new_gNot_0" spirit:portRef="not_a"/>
+        <spirit:internalPortReference spirit:componentRef="xadc_wiz_0" spirit:portRef="reset_in"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>submon_sig_2</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="stabilization_property_mon_0" spirit:portRef="submon_sig_2"/>
+        <spirit:externalPortReference spirit:portRef="submon_sig_2"/>
+        <bd:hdl_attributes>
+          <bd:hdl_attribute bd:name="MARK_DEBUG" bd:value="true"/>
+        </bd:hdl_attributes>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>submon_sig_0</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="stabilization_property_mon_0" spirit:portRef="submon_sig_0"/>
+        <spirit:externalPortReference spirit:portRef="submon_sig_0"/>
+        <bd:hdl_attributes>
+          <bd:hdl_attribute bd:name="MARK_DEBUG" bd:value="true"/>
+        </bd:hdl_attributes>
+      </spirit:adHocConnection>
+    </spirit:adHocConnections>
+    <spirit:hierConnections>
+      <spirit:hierConnection spirit:interfaceRef="DDR/processing_system7_0_DDR">
+        <spirit:activeInterface spirit:busRef="DDR" spirit:componentRef="processing_system7_0"/>
+      </spirit:hierConnection>
+      <spirit:hierConnection spirit:interfaceRef="FIXED_IO/processing_system7_0_FIXED_IO">
+        <spirit:activeInterface spirit:busRef="FIXED_IO" spirit:componentRef="processing_system7_0"/>
+      </spirit:hierConnection>
+    </spirit:hierConnections>
+  </spirit:design>
+
+  <spirit:component xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009">
+    <spirit:vendor>xilinx.com</spirit:vendor>
+    <spirit:library>Addressing/processing_system7_0</spirit:library>
+    <spirit:name>processing_system7</spirit:name>
+    <spirit:version>5.5</spirit:version>
+    <spirit:addressSpaces>
+      <spirit:addressSpace>
+        <spirit:name>Data</spirit:name>
+        <spirit:range>4G</spirit:range>
+        <spirit:width>32</spirit:width>
+        <spirit:segments/>
+      </spirit:addressSpace>
+    </spirit:addressSpaces>
+  </spirit:component>
+
+</bd:repository>

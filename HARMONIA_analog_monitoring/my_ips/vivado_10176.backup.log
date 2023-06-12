@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Tue Apr 28 18:16:32 2015
+# Process ID: 5716
+# Log file: C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/my_ips/vivado.log
+# Journal file: C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/my_ips\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/my_ips/stabilization_prop_mon_generic.xpr
+INFO: [Project 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/my_ips'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/my_ips'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.4/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:09 . Memory (MB): peak = 711.980 ; gain = 164.832
+add_files -norecurse {{C:/HARMONIA repo/code/SPI example/my_IP_core/my_IP_core.srcs/sources_1/new/shift_reg_buffer.v}}
+update_compile_order -fileset sources_1
+WARNING: [Ipptcl 7-571] The IP root directory is 'c:/'.
+ipx::package_project -root_dir C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/my_ips/stabilization_prop_mon -import_files -set_current false -force
+INFO: [IP_Flow 19-2228] Inferred bus interface "signal_clock" of definition type "xilinx.com:signal:clock:1.0".
+ipx::unload_core c:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/my_ips/stabilization_prop_mon/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/my_ips/stabilization_prop_mon c:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/my_ips/stabilization_prop_mon/component.xml
+INFO: [Project 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'c:/phd/vivado_projects/parallella-hw/fpga/projects/harmonia_analog_monitoring/my_ips/stabilization_prop_mon'
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:0.9 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/kintex7/kc705/0.9/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.0 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/kintex7/kc705/1.0/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.1 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/kintex7/kc705/1.1/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:0.9 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/zynq/zc706/0.9/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.0 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/zynq/zc706/1.0/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.1 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/zynq/zc706/1.1/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.4/data/ip'.
+create_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:05 . Memory (MB): peak = 731.590 ; gain = 19.609
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/my_ips'.
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 731.590 ; gain = 19.609
+update_compile_order -fileset sim_1
+current_project stabilization_prop_mon_generic
+current_project tmp_edit_project
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 28 18:18:53 2015...

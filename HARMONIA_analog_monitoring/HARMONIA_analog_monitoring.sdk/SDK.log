@@ -1,0 +1,1065 @@
+01:06:10 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+01:06:15 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+01:17:47 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+01:17:47 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:372)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:378)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:287)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+01:17:48 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+01:17:48 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:372)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:378)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:287)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+01:19:26 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+01:20:49 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:184)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:586)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:623)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:675)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:546)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:293)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+01:21:17 ERROR : Unexpected error while launching program.
+java.lang.IllegalArgumentException: Path for project must have only one segment.
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.getProject(WorkspaceRoot.java:184)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyCProject(CDebugUtils.java:586)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:623)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:675)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:546)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:293)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+01:22:59 INFO  : ps7_init is completed.
+01:22:59 INFO  : ps7_post_config is completed.
+01:22:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:23:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:23:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:24:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:25:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:25:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:26:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:26:57 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:27:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:28:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:28:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:37:56 INFO  : No changes in MSS file content so not generating sources.
+13:39:41 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:56:47 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+13:56:48 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+13:56:49 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+14:02:57 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+14:02:57 ERROR : Timeout occured while waiting to get reply for command "xfpga -cable type xilinx_tcf url TCP:127.0.0.1:3121 -f C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit -report_progress"
+14:02:57 ERROR : FPGA Configuration failed.
+14:27:07 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+14:27:10 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+14:27:11 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+14:27:17 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1430051208144,  Project:1430002927415
+14:27:17 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+14:27:17 INFO  : Copied contents of C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+14:27:39 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+14:27:41 INFO  : 
+14:28:07 INFO  : Updating hardware inferred compiler options for XadcDrp.
+14:28:07 INFO  : Clearing existing target manager status.
+14:28:07 WARN  : Unable to obtain port 2350 for use by XMD, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+14:30:13 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+14:30:13 ERROR : Timeout occured while waiting to get reply for command "xfpga -cable type xilinx_tcf url TCP:127.0.0.1:3121 -f C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit -report_progress"
+14:30:13 ERROR : FPGA Configuration failed.
+14:32:16 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+14:32:16 ERROR : Timeout occured while waiting to get reply for command "xfpga -cable type xilinx_tcf url TCP:127.0.0.1:3121 -f C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit -report_progress"
+14:32:16 ERROR : FPGA Configuration failed.
+14:33:09 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+14:33:11 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+14:33:11 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+14:33:15 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1430050564561,  Project:1430051208144
+14:33:15 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+14:33:15 INFO  : Copied contents of C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+14:33:32 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+14:33:33 INFO  : 
+14:33:52 INFO  : Updating hardware inferred compiler options for XadcDrp.
+14:33:52 INFO  : Clearing existing target manager status.
+14:33:52 WARN  : Unable to obtain port 2350 for use by XMD, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+14:33:52 WARN  : Unable to obtain port 2357 for use by XMD, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+14:35:23 ERROR : FPGA Configuration failed.Connection to Board Failed
+
+
+    
+Failed to connect to Xilinx hw_server at TCP:127.0.0.1:2450
+.    Check if
+     1. the hw_server is running and correct TCP port is used
+     2. the board is powered on and JTAG cable is connected.
+
+14:36:48 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+14:36:48 ERROR : Timeout occured while waiting to get reply for command "xfpga -cable type xilinx_tcf url TCP:127.0.0.1:3121 -f C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit -report_progress"
+14:36:48 ERROR : FPGA Configuration failed.
+14:38:36 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+14:38:36 ERROR : Timeout occured while waiting to get reply for command "xfpga -cable type xilinx_tcf url TCP:172.20.36.99:2450 -f C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit -report_progress"
+14:38:36 ERROR : FPGA Configuration failed.
+14:40:05 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+14:40:05 ERROR : Timeout occured while waiting to get reply for command "xfpga -cable type xilinx_tcf url TCP:127.0.0.1:3121 -f C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit -report_progress"
+14:40:05 ERROR : FPGA Configuration failed.
+14:45:41 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+14:45:43 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+14:45:43 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+14:46:26 WARN  : Unable to obtain port 2350 for use by XMD, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+14:46:26 WARN  : Unable to obtain port 2357 for use by XMD, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+14:46:26 WARN  : Unable to obtain port 2364 for use by XMD, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+14:47:31 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+14:47:31 ERROR : Timeout occured while waiting to get reply for command "xfpga -cable type xilinx_tcf url TCP:127.0.0.1:3121 -f C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit -report_progress"
+14:47:31 ERROR : FPGA Configuration failed.
+14:48:05 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+14:48:06 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+14:48:07 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+14:49:15 WARN  : Unable to obtain port 2350 for use by XMD, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+14:49:15 WARN  : Unable to obtain port 2357 for use by XMD, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+14:49:15 WARN  : Unable to obtain port 2364 for use by XMD, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+14:49:15 WARN  : Unable to obtain port 2371 for use by XMD, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+14:50:21 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+14:50:21 ERROR : Timeout occured while waiting to get reply for command "xfpga -cable type xilinx_tcf url TCP:127.0.0.1:3121 -f C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit -report_progress"
+14:50:21 ERROR : FPGA Configuration failed.
+15:06:47 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+15:06:49 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+15:06:49 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+15:07:10 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:07:32 INFO  : ps7_init is completed.
+15:07:32 INFO  : ps7_post_config is completed.
+15:07:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:07:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:08:12 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:52:47 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+15:52:51 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+15:52:52 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+15:52:54 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1430056182750,  Project:1430050564561
+15:52:54 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+15:52:54 INFO  : Copied contents of C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+15:53:25 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+15:53:27 INFO  : 
+15:53:51 INFO  : Updating hardware inferred compiler options for XadcDrp.
+15:53:51 INFO  : Clearing existing target manager status.
+15:54:08 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+15:54:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:54:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:55:15 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:14:12 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+16:14:13 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+16:14:14 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+16:14:15 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1430057584162,  Project:1430056182750
+16:14:15 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+16:14:15 INFO  : Copied contents of C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+16:14:33 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+16:14:48 INFO  : 
+16:14:50 INFO  : Updating hardware inferred compiler options for XadcDrp.
+16:14:50 INFO  : Clearing existing target manager status.
+16:16:24 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:16:31 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:32:07 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+17:32:08 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+17:32:09 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+17:32:10 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1430062290535,  Project:1430057584162
+17:32:10 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+17:32:10 INFO  : Copied contents of C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+17:32:10 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:32:34 INFO  : 
+17:32:35 INFO  : Updating hardware inferred compiler options for XadcDrp.
+17:32:35 INFO  : Clearing existing target manager status.
+17:32:49 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:32:56 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:36:56 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+17:36:58 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+17:36:58 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+17:37:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:39:20 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1430066337779,  Project:1430062290535
+18:39:20 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+18:39:22 INFO  : Copied contents of C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+18:39:42 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+18:40:37 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+18:40:39 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+18:40:39 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+18:41:10 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+18:41:20 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:06:33 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+11:06:35 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+11:06:35 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1430298153447,  Project:1430066337779
+11:06:35 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+11:06:35 INFO  : Copied contents of C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+11:06:36 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+11:07:07 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+11:07:33 INFO  : 
+11:07:35 INFO  : Updating hardware inferred compiler options for XadcDrp.
+11:07:35 INFO  : Clearing existing target manager status.
+11:07:39 INFO  : Closing and re-opening the MSS file of ther project XadcDrp_bsp
+11:07:41 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+11:08:26 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:09:04 INFO  : ps7_init is completed.
+11:09:04 INFO  : ps7_post_config is completed.
+11:09:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:09:27 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:31:56 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+11:31:59 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+11:31:59 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1430299865987,  Project:1430298153447
+11:31:59 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+11:31:59 INFO  : Copied contents of C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+11:31:59 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+11:32:21 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+11:32:45 INFO  : 
+11:32:47 INFO  : Updating hardware inferred compiler options for XadcDrp.
+11:32:47 INFO  : Clearing existing target manager status.
+11:32:50 INFO  : Closing and re-opening the MSS file of ther project XadcDrp_bsp
+11:32:53 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+11:33:42 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:34:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:34:27 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:06:57 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+12:07:00 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+12:07:00 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1430301836843,  Project:1430299865987
+12:07:00 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+12:07:00 INFO  : Copied contents of C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+12:07:00 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+12:07:25 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+12:07:52 INFO  : 
+12:07:54 INFO  : Updating hardware inferred compiler options for XadcDrp.
+12:07:54 INFO  : Clearing existing target manager status.
+12:07:58 INFO  : Closing and re-opening the MSS file of ther project XadcDrp_bsp
+12:08:00 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+12:12:13 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:12:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:14:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:01:31 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:02:21 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+13:02:22 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+13:02:22 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1430304467959,  Project:1430301836843
+13:02:22 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+13:02:22 INFO  : Copied contents of C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+13:02:23 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+13:02:24 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+13:02:48 INFO  : 
+13:02:50 INFO  : Updating hardware inferred compiler options for XadcDrp.
+13:02:50 INFO  : Clearing existing target manager status.
+13:02:54 INFO  : Closing and re-opening the MSS file of ther project XadcDrp_bsp
+13:02:56 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+13:03:06 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+13:03:18 INFO  : ps7_init is completed.
+13:03:18 INFO  : ps7_post_config is completed.
+13:03:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:22:47 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+13:22:47 ERROR : Timeout occured while waiting to get reply for command "xfpga -cable type xilinx_tcf url TCP:127.0.0.1:3121 -f C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit -report_progress"
+13:22:47 ERROR : FPGA Configuration failed.
+13:23:29 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+13:23:31 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+13:23:31 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+13:23:32 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2457
+13:24:22 WARN  : Unable to obtain port 2350 for use by XMD, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+13:25:25 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+13:25:25 ERROR : Timeout occured while waiting to get reply for command "xfpga_isconfigured -cable type xilinx_tcf url TCP:127.0.0.1:3121 "
+13:25:25 ERROR : Checking FPGA configuration failed..
+13:25:25 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:372)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:378)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:287)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+13:27:24 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+13:27:25 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+13:27:25 WARN  : Unable to obtain port 2457 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+13:27:25 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+13:27:26 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2464
+13:27:39 WARN  : Unable to obtain port 2350 for use by XMD, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+13:27:39 WARN  : Unable to obtain port 2357 for use by XMD, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+13:28:43 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+13:28:43 ERROR : Timeout occured while waiting to get reply for command "xfpga -cable type xilinx_tcf url TCP:127.0.0.1:3121 -f C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit -report_progress"
+13:28:43 ERROR : FPGA Configuration failed.
+13:39:52 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+13:39:54 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+13:39:54 WARN  : Unable to obtain port 2457 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+13:39:54 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+13:39:54 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1430307529223,  Project:1430304467959
+13:39:54 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+13:39:54 INFO  : Copied contents of C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+13:39:55 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2464
+13:39:56 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+13:40:23 INFO  : 
+13:40:25 INFO  : Updating hardware inferred compiler options for XadcDrp.
+13:40:25 INFO  : Clearing existing target manager status.
+13:40:29 INFO  : Closing and re-opening the MSS file of ther project XadcDrp_bsp
+13:40:30 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+13:41:18 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+13:41:26 INFO  : ps7_init is completed.
+13:41:26 INFO  : ps7_post_config is completed.
+13:41:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:06:09 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:51:35 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+17:51:38 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+17:51:38 WARN  : Unable to obtain port 2457 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+17:51:38 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+17:51:38 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1430304467959,  Project:1430307529223
+17:51:38 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+17:51:38 INFO  : Copied contents of C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+17:51:39 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2464
+17:51:59 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:52:00 INFO  : 
+17:52:21 INFO  : Updating hardware inferred compiler options for XadcDrp.
+17:52:21 INFO  : Clearing existing target manager status.
+17:52:25 INFO  : Closing and re-opening the MSS file of ther project XadcDrp_bsp
+17:52:26 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+17:52:35 ERROR : FPGA Configuration failed.Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+17:53:24 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:54:02 INFO  : ps7_init is completed.
+17:54:02 INFO  : ps7_post_config is completed.
+17:54:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:10:21 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+21:27:37 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+21:32:05 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+21:32:07 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+21:32:07 WARN  : Unable to obtain port 2457 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+21:32:08 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+21:32:08 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1430335787255,  Project:1430304467959
+21:32:08 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+21:32:08 INFO  : Copied contents of C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+21:32:08 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2464
+21:32:09 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+21:32:34 INFO  : 
+21:32:36 INFO  : Updating hardware inferred compiler options for XadcDrp.
+21:32:36 INFO  : Clearing existing target manager status.
+21:32:40 INFO  : Closing and re-opening the MSS file of ther project XadcDrp_bsp
+21:32:42 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+21:32:57 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+21:33:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:12:32 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:34:29 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+11:34:31 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+11:34:31 WARN  : Unable to obtain port 2457 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+11:34:31 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+11:34:31 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1430385724945,  Project:1430335787255
+11:34:31 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+11:34:31 INFO  : Copied contents of C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+11:34:32 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2464
+11:34:58 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+11:35:18 INFO  : 
+11:35:19 INFO  : Updating hardware inferred compiler options for XadcDrp.
+11:35:20 INFO  : Clearing existing target manager status.
+11:35:23 INFO  : Closing and re-opening the MSS file of ther project XadcDrp_bsp
+11:35:24 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+11:35:43 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:36:09 INFO  : ps7_init is completed.
+11:36:09 INFO  : ps7_post_config is completed.
+11:36:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:40:16 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    
+Failed to connect to Xilinx hw_server at TCP:127.0.0.1:3121
+.    Check if
+     1. the hw_server is running and correct TCP port is used
+     2. the board is powered on and JTAG cable is connected.
+
+11:40:16 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    
+Failed to connect to Xilinx hw_server at TCP:127.0.0.1:3121
+.    Check if
+     1. the hw_server is running and correct TCP port is used
+     2. the board is powered on and JTAG cable is connected.
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:372)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:378)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:287)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+11:40:38 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:43:31 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+11:43:32 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+11:43:32 WARN  : Unable to obtain port 2457 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+11:43:33 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+11:43:33 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2464
+11:44:01 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:44:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:48:18 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+13:48:18 ERROR : Timeout occured while waiting to get reply for command "xfpga -cable type xilinx_tcf url TCP:127.0.0.1:3121 -f C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit -report_progress"
+13:48:18 ERROR : FPGA Configuration failed.
+13:49:05 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+13:49:06 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+13:49:06 WARN  : Unable to obtain port 2457 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+13:49:07 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+13:49:07 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2464
+13:49:17 WARN  : Unable to obtain port 2350 for use by XMD, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+13:50:20 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+13:50:20 ERROR : Timeout occured while waiting to get reply for command "xfpga -cable type xilinx_tcf url TCP:127.0.0.1:3121 -f C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit -report_progress"
+13:50:20 ERROR : FPGA Configuration failed.
+14:04:41 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+14:04:42 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+14:04:42 WARN  : Unable to obtain port 2457 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+14:04:42 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+14:04:43 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2464
+14:05:05 WARN  : Unable to obtain port 2350 for use by XMD, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+14:05:05 WARN  : Unable to obtain port 2357 for use by XMD, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+14:05:35 ERROR : FPGA Configuration failed.Connection to Board Failed
+
+
+    
+Failed to connect to Xilinx hw_server at TCP:127.0.0.1:3121
+.    Check if
+     1. the hw_server is running and correct TCP port is used
+     2. the board is powered on and JTAG cable is connected.
+
+14:05:42 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:07:25 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+14:07:26 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+14:07:26 WARN  : Unable to obtain port 2457 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+14:07:27 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+14:07:27 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2464
+14:08:06 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+14:08:32 INFO  : ps7_init is completed.
+14:08:32 INFO  : ps7_post_config is completed.
+14:08:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:32:36 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:16:08 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+13:16:09 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+13:16:09 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1430997291772,  Project:1430385724945
+13:16:09 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+13:16:10 INFO  : Copied contents of C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+13:16:10 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+13:16:10 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+13:16:11 INFO  : 
+13:16:24 INFO  : Updating hardware inferred compiler options for XadcDrp.
+13:16:24 INFO  : Clearing existing target manager status.
+13:16:27 INFO  : Closing and re-opening the MSS file of ther project XadcDrp_bsp
+13:16:27 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+13:23:00 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+13:23:11 INFO  : ps7_init is completed.
+13:23:11 INFO  : ps7_post_config is completed.
+13:23:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:43:46 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+13:43:53 INFO  : ps7_init is completed.
+13:43:54 INFO  : ps7_post_config is completed.
+13:43:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:49:50 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+13:49:50 ERROR : Timeout occured while waiting to get reply for command "xfpga -cable type xilinx_tcf url TCP:127.0.0.1:3121 -f C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit -report_progress"
+13:49:50 ERROR : FPGA Configuration failed.
+13:56:00 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+13:56:02 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+13:56:02 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+13:56:29 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+13:56:35 INFO  : ps7_init is completed.
+13:56:35 INFO  : ps7_post_config is completed.
+13:56:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:22:21 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+19:56:46 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+19:56:48 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+19:56:48 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+19:58:34 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+19:58:43 INFO  : ps7_init is completed.
+19:58:43 INFO  : ps7_post_config is completed.
+19:58:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:19:10 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+20:33:39 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+20:33:40 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+20:33:40 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1431023576663,  Project:1430997291772
+20:33:40 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+20:33:40 INFO  : Copied contents of C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+20:33:41 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+20:33:41 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+20:33:42 INFO  : 
+20:33:53 INFO  : Updating hardware inferred compiler options for XadcDrp.
+20:33:53 INFO  : Clearing existing target manager status.
+20:33:55 INFO  : Closing and re-opening the MSS file of ther project XadcDrp_bsp
+20:33:55 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+20:34:26 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+20:34:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:00:12 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1431025196148,  Project:1431023576663
+21:00:12 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+21:00:41 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification location will not be monitored anymore.
+21:00:46 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+21:01:21 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+21:01:24 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+21:01:47 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+21:02:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:07:10 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+21:07:13 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:07:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:17:52 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+21:18:36 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+21:18:37 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+21:18:38 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+21:18:39 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1431026170693,  Project:1431025196148
+21:18:39 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_1' is different from C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+21:18:39 INFO  : Copied contents of C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_1\system.hdf.
+21:18:40 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+21:18:41 INFO  : Clearing existing target manager status.
+21:18:42 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+21:19:16 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+21:19:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:24:05 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+21:40:38 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+21:40:40 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+21:40:40 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+21:40:53 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+21:41:01 INFO  : ps7_init is completed.
+21:41:01 INFO  : ps7_post_config is completed.
+21:41:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:57:03 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+21:59:17 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+21:59:19 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+21:59:19 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+21:59:20 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1431028700780,  Project:1431026170693
+21:59:20 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_1' is different from C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+21:59:20 INFO  : Copied contents of C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_1\system.hdf.
+21:59:21 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+21:59:21 INFO  : Clearing existing target manager status.
+21:59:22 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+21:59:30 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+21:59:38 INFO  : ps7_init is completed.
+21:59:38 INFO  : ps7_post_config is completed.
+21:59:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:14:12 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+22:14:12 ERROR : Timeout occured while waiting to get reply for command "xfpga -cable type xilinx_tcf url TCP:127.0.0.1:3121 -f C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit -report_progress"
+22:14:12 ERROR : FPGA Configuration failed.
+22:16:07 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+22:16:09 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+22:16:09 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+22:17:05 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+22:17:15 INFO  : ps7_init is completed.
+22:17:15 INFO  : ps7_post_config is completed.
+22:17:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:37:30 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+23:14:48 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+23:14:50 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+23:14:50 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+23:14:52 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1431033197562,  Project:1431028700780
+23:14:52 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_1' is different from C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+23:14:52 INFO  : Copied contents of C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_1\system.hdf.
+23:14:53 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+23:14:53 INFO  : Clearing existing target manager status.
+23:14:54 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+23:15:06 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+23:15:13 INFO  : ps7_init is completed.
+23:15:13 INFO  : ps7_post_config is completed.
+23:15:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:16:40 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+23:18:19 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+23:18:21 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+23:18:21 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+23:19:14 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+23:19:15 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+23:19:16 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+23:20:36 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+23:20:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:37:22 ERROR : FPGA Configuration failed.Connection to Board Failed
+
+
+    Failed to connect to Xilinx hw_server at TCP:127.0.0.1:3121
+.    Check if
+     1. the hw_server is running and correct TCP port is used
+     2. the board is powered on and JTAG cable is connected.
+
+23:37:27 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+23:37:54 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+23:37:55 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+23:37:56 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+23:38:03 ERROR : FPGA Configuration failed.Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+23:38:17 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+23:38:26 INFO  : ps7_init is completed.
+23:38:26 INFO  : ps7_post_config is completed.
+23:38:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:55:19 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+09:58:39 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+09:58:41 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+09:58:41 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+09:58:42 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1431071688226,  Project:1431033197562
+09:58:42 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_1' is different from C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+09:58:42 INFO  : Copied contents of C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_1\system.hdf.
+09:58:43 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+09:58:43 INFO  : Clearing existing target manager status.
+09:58:44 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+09:59:00 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+09:59:09 INFO  : ps7_init is completed.
+09:59:09 INFO  : ps7_post_config is completed.
+09:59:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:14:55 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:15:30 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+10:15:32 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+10:15:33 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+10:20:02 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+10:20:03 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+10:20:04 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+10:20:19 ERROR : SDK has detected that project design_1_wrapper_hw_platform_0 has been deleted (or renamed).
+This project was referenced by a BSP project, which will now fail to compile properly.
+
+We recommend that you create a new BSP project pointing to a valid hardware project.
+10:20:41 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+10:21:37 INFO  : ps7_init is completed.
+10:21:37 INFO  : ps7_post_config is completed.
+10:21:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:51:45 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:03:51 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+11:03:52 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+11:03:52 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+11:03:54 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1431075783046,  Project:1431071688226
+11:03:54 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_1' is different from C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+11:03:54 INFO  : Copied contents of C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_1\system.hdf.
+11:03:55 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+11:03:55 INFO  : Clearing existing target manager status.
+11:03:57 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+11:04:47 ERROR : FPGA Configuration failed.Connection to Board Failed
+
+
+    Failed to connect to Xilinx hw_server at TCP:127.0.0.1:3121
+.    Check if
+     1. the hw_server is running and correct TCP port is used
+     2. the board is powered on and JTAG cable is connected.
+
+11:05:02 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:06:17 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+11:06:19 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+11:06:19 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+11:09:47 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+11:09:53 INFO  : ps7_init is completed.
+11:09:53 INFO  : ps7_post_config is completed.
+11:09:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:56:13 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:00:19 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+12:00:20 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+12:00:21 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+12:00:22 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1431079068344,  Project:1431075783046
+12:00:22 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_1' is different from C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+12:00:22 INFO  : Copied contents of C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_1\system.hdf.
+12:00:23 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+12:00:23 INFO  : Clearing existing target manager status.
+12:00:25 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+12:00:32 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+12:00:38 INFO  : ps7_init is completed.
+12:00:38 INFO  : ps7_post_config is completed.
+12:00:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:53:24 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:45:33 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+11:45:34 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+11:45:35 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+11:46:39 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+11:46:39 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:372)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:378)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:287)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+11:47:13 ERROR : FPGA Configuration failed.Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+11:47:35 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+11:47:35 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:372)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:378)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:287)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+11:47:45 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+11:47:51 INFO  : ps7_init is completed.
+11:47:52 INFO  : ps7_post_config is completed.
+11:47:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:54:04 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+11:54:04 ERROR : Timeout occured while waiting to get reply for command "xfpga -cable type xilinx_tcf url TCP:127.0.0.1:3121 -f C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit -report_progress"
+11:54:04 ERROR : FPGA Configuration failed.
+11:54:36 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+11:54:37 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+11:54:38 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+11:54:52 WARN  : Unable to obtain port 2350 for use by XMD, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+11:57:06 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+11:57:07 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+11:57:07 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+11:57:08 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2457
+11:57:15 WARN  : Unable to obtain port 2350 for use by XMD, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+11:57:15 WARN  : Unable to obtain port 2357 for use by XMD, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+11:58:16 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+11:58:16 ERROR : Timeout occured while waiting to get reply for command "xfpga -cable type xilinx_tcf url TCP:127.0.0.1:3121 -f C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit -report_progress"
+11:58:16 ERROR : FPGA Configuration failed.
+12:08:04 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+12:08:04 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+12:08:04 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+12:08:05 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2457
+12:08:27 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+12:08:50 INFO  : ps7_init is completed.
+12:08:50 INFO  : ps7_post_config is completed.
+12:08:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:06:56 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:06:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:09:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:09:27 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:09:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:09:49 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:10:15 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+15:10:16 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+15:10:16 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+15:10:17 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2457
+15:10:30 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+15:10:52 INFO  : ps7_init is completed.
+15:10:52 INFO  : ps7_post_config is completed.
+15:10:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:37:00 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:58:10 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+13:58:11 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+13:58:11 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+13:58:12 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2457
+12:40:48 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+12:40:50 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+12:40:50 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+12:40:54 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1439894423450,  Project:1431079068344
+12:40:54 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_1' is different from C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+12:40:54 INFO  : Copied contents of C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_1\system.hdf.
+12:41:06 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+12:41:06 INFO  : Clearing existing target manager status.
+12:41:08 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+12:41:46 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+12:41:53 INFO  : ps7_init is completed.
+12:41:53 INFO  : ps7_post_config is completed.
+12:41:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:51:01 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+12:52:17 INFO  : ps7_init is completed.
+12:52:17 INFO  : ps7_post_config is completed.
+12:52:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:08:29 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+13:14:27 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+13:15:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:25:36 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:57:15 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+13:57:16 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+13:57:17 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+13:57:18 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1439898975389,  Project:1439894423450
+13:57:18 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_1' is different from C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+13:57:18 INFO  : Copied contents of C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_1\system.hdf.
+13:57:19 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+13:57:20 INFO  : Clearing existing target manager status.
+13:57:21 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+13:57:29 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+13:57:41 INFO  : ps7_init is completed.
+13:57:42 INFO  : ps7_post_config is completed.
+13:57:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:21:33 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1439911263010,  Project:1439898975389
+17:21:33 INFO  : Project design_1_wrapper_hw_platform_1's source hardware specification located at C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+17:21:49 INFO  : Copied contents of C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_1\system.hdf.
+17:21:49 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:21:50 INFO  : Clearing existing target manager status.
+17:21:50 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+17:21:55 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:22:19 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+17:22:20 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+17:22:21 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+17:23:39 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+17:23:39 ERROR : Timeout occured while waiting to get reply for command "xfpga -cable type xilinx_tcf url TCP:127.0.0.1:3121 -f C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit -report_progress"
+17:23:39 ERROR : FPGA Configuration failed.
+17:24:13 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+17:24:14 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+17:24:15 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+17:24:34 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+17:24:54 INFO  : ps7_init is completed.
+17:24:54 INFO  : ps7_post_config is completed.
+17:24:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:57:32 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:44:35 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+10:44:38 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+10:44:38 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+10:44:44 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1439925003711,  Project:1439911263010
+10:44:44 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_1' is different from C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+10:44:44 INFO  : Copied contents of C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_1\system.hdf.
+10:44:46 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+10:44:47 INFO  : Clearing existing target manager status.
+10:44:51 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+10:45:06 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+10:45:36 INFO  : ps7_init is completed.
+10:45:37 INFO  : ps7_post_config is completed.
+10:45:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:28:57 ERROR : FPGA Configuration failed.Connection to Board Failed
+
+
+    Failed to connect to Xilinx hw_server at TCP:127.0.0.1:3121
+.    Check if
+     1. the hw_server is running and correct TCP port is used
+     2. the board is powered on and JTAG cable is connected.
+
+11:29:05 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:29:36 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+11:29:38 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+11:29:38 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+11:29:59 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+11:30:14 INFO  : ps7_init is completed.
+11:30:15 INFO  : ps7_post_config is completed.
+11:30:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:48:36 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:14:34 INFO  : Processing command line option -hwspec C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+10:14:35 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+10:14:36 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+10:14:44 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1440057948985,  Project:1439925003711
+10:14:44 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_1' is different from C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+10:14:45 INFO  : Copied contents of C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_1\system.hdf.
+10:14:47 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+10:14:48 INFO  : Clearing existing target manager status.
+10:14:51 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+10:15:03 INFO  : FPGA configured successfully with bitstream "C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+10:15:34 INFO  : ps7_init is completed.
+10:15:34 INFO  : ps7_post_config is completed.
+10:15:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:46:31 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+10:46:31 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 64"
+10:46:31 ERROR : Disconnect target failed.
+10:46:31 ERROR : Unable to disconnect from existing targets
+java.lang.RuntimeException: 
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(TM.java:327)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(TM.java:306)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(TM.java:210)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(TMPlugin.java:57)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:566)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1206)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:592)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:692)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:600)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+10:47:10 INFO  : Processing command line option -hwspec C:/HARMONIA_repo/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+10:47:12 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+10:48:13 INFO  : FPGA configured successfully with bitstream "C:/HARMONIA_repo/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+10:53:46 INFO  : ps7_init is completed.
+10:53:46 INFO  : ps7_post_config is completed.
+10:53:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:08:46 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:26:53 INFO  : Processing command line option -hwspec C:/HARMONIA_repo/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+13:26:56 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+13:26:56 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+13:27:21 INFO  : FPGA configured successfully with bitstream "C:/HARMONIA_repo/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+13:27:54 INFO  : FPGA configured successfully with bitstream "C:/HARMONIA_repo/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+13:35:06 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:41:55 INFO  : Processing command line option -hwspec C:/HARMONIA_repo/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+14:41:58 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+14:41:59 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+14:42:39 INFO  : FPGA configured successfully with bitstream "C:/HARMONIA_repo/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+14:43:26 INFO  : ps7_init is completed.
+14:43:26 INFO  : ps7_post_config is completed.
+14:43:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:04:42 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:54:27 INFO  : Processing command line option -hwspec C:/HARMONIA_repo/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+13:54:29 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+13:54:29 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+13:54:54 INFO  : FPGA configured successfully with bitstream "C:/HARMONIA_repo/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+13:55:18 INFO  : ps7_init is completed.
+13:55:18 INFO  : ps7_post_config is completed.
+13:55:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:57:54 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:57:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:58:38 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:00:06 INFO  : Processing command line option -hwspec C:/HARMONIA_repo/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+14:00:08 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+14:00:09 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+14:00:10 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1508155185434,  Project:1440057948985
+14:00:10 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/HARMONIA_repo/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+14:00:10 INFO  : Copied contents of C:/HARMONIA_repo/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+14:00:40 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+14:01:03 INFO  : 
+14:01:04 INFO  : Updating hardware inferred compiler options for XadcDrp.
+14:01:04 INFO  : Clearing existing target manager status.
+14:01:13 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+14:01:56 INFO  : FPGA configured successfully with bitstream "C:/HARMONIA_repo/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+14:02:16 INFO  : ps7_init is completed.
+14:02:16 INFO  : ps7_post_config is completed.
+14:02:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:06:38 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:07:03 INFO  : Processing command line option -hwspec C:/HARMONIA_repo/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+14:07:04 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+14:07:05 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+14:07:30 ERROR : FPGA Configuration failed.Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+14:07:47 INFO  : FPGA configured successfully with bitstream "C:/HARMONIA_repo/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+14:08:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:12:22 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+14:12:22 WARN  : Terminating existing sessions on processor ps7_cortexa9_0
+14:12:34 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:17:12 INFO  : Processing command line option -hwspec C:/HARMONIA_repo/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+14:17:14 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+14:17:15 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+14:17:19 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1508156197868,  Project:1508155185434
+14:17:19 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from C:/HARMONIA_repo/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+14:17:19 INFO  : Copied contents of C:/HARMONIA_repo/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+14:17:20 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+14:17:37 INFO  : 
+14:17:38 INFO  : Updating hardware inferred compiler options for XadcDrp.
+14:17:38 INFO  : Clearing existing target manager status.
+14:17:40 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+14:18:12 INFO  : FPGA configured successfully with bitstream "C:/HARMONIA_repo/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+14:19:01 INFO  : ps7_init is completed.
+14:19:01 INFO  : ps7_post_config is completed.
+14:19:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:19:57 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:26:10 INFO  : Processing command line option -hwspec C:/HARMONIA_repo/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+14:26:12 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+14:26:12 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+14:27:46 INFO  : FPGA configured successfully with bitstream "C:/HARMONIA_repo/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+14:28:14 INFO  : ps7_init is completed.
+14:28:14 INFO  : ps7_post_config is completed.
+14:28:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:34:19 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:47:12 INFO  : Processing command line option -hwspec C:/HARMONIA_repo/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+14:47:14 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+14:47:15 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+14:47:48 INFO  : FPGA configured successfully with bitstream "C:/HARMONIA_repo/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+14:48:17 INFO  : ps7_init is completed.
+14:48:17 INFO  : ps7_post_config is completed.
+14:48:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:51:42 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:01:12 INFO  : Processing command line option -hwspec C:/HARMONIA_repo/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+15:01:13 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+15:01:14 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+15:02:08 INFO  : FPGA configured successfully with bitstream "C:/HARMONIA_repo/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+15:02:26 INFO  : ps7_init is completed.
+15:02:26 INFO  : ps7_post_config is completed.
+15:02:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:04:48 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:46:06 INFO  : Processing command line option -hwspec C:/HARMONIA_repo/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+15:46:07 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+15:46:08 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+15:47:32 INFO  : FPGA configured successfully with bitstream "C:/HARMONIA_repo/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+15:47:52 INFO  : ps7_init is completed.
+15:47:52 INFO  : ps7_post_config is completed.
+15:47:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:09:06 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+07:52:34 INFO  : Processing command line option -hwspec C:/HARMONIA_repo/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper.hdf.
+07:52:36 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+07:52:36 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+07:53:36 INFO  : FPGA configured successfully with bitstream "C:/HARMONIA_repo/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+07:54:17 INFO  : ps7_init is completed.
+07:54:17 INFO  : ps7_post_config is completed.
+07:54:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:18:20 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

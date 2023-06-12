@@ -1,0 +1,339 @@
+
+*** Running vivado
+    with args -log stabilization_property_mon.vds -m64 -mode batch -messageDb vivado.pb -source stabilization_property_mon.tcl
+
+
+****** Vivado v2014.4 (64-bit)
+  **** SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+  **** IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source stabilization_property_mon.tcl
+# set_param gui.test TreeTableDev
+# debug::add_scope template.lib 1
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# create_project -in_memory -part xc7z020clg484-1
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:0.9 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/kintex7/kc705/0.9/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.0 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/kintex7/kc705/1.0/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.1 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/kintex7/kc705/1.1/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:0.9 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/zynq/zc706/0.9/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.0 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/zynq/zc706/1.0/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.1 available at C:/Xilinx/Vivado/2014.4/data/boards/board_parts/zynq/zc706/1.1/board_part.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+# set_param project.compositeFile.enableAutoGeneration 0
+# set_param synth.vivado.isSynthRun true
+# set_property webtalk.parent_dir C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/my_ips/stabilization_prop_mon_generic.cache/wt [current_project]
+# set_property parent.project_path C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/my_ips/stabilization_prop_mon_generic.xpr [current_project]
+# set_property default_lib xil_defaultlib [current_project]
+# set_property target_language Verilog [current_project]
+# set_property ip_repo_paths C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/my_ips [current_project]
+# read_verilog -library xil_defaultlib {
+#   {C:/HARMONIA repo/code/SPI example/my_IP_core/my_IP_core.srcs/sources_1/new/shift_reg_buffer.v}
+#   C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/my_ips/stabilization_prop_mon/stabilization_property_mon.v
+# }
+# catch { write_hwdef -file stabilization_property_mon.hwdef }
+INFO: [Vivado_Tcl 4-279] hardware handoff file cannot be generated as there is no block diagram instance in the design
+# synth_design -top stabilization_property_mon -part xc7z020clg484-1
+Command: synth_design -top stabilization_property_mon -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 232.457 ; gain = 72.762
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'stabilization_property_mon' [C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/my_ips/stabilization_prop_mon/stabilization_property_mon.v:11]
+	Parameter DIV_TIME bound to: 1 - type: integer 
+	Parameter STAB_TIME bound to: 1 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'shift_reg_buffer' [C:/HARMONIA repo/code/SPI example/my_IP_core/my_IP_core.srcs/sources_1/new/shift_reg_buffer.v:24]
+	Parameter A bound to: 2 - type: integer 
+INFO: [Synth 8-4472] Detected and applied attribute shreg_extract = yes [C:/HARMONIA repo/code/SPI example/my_IP_core/my_IP_core.srcs/sources_1/new/shift_reg_buffer.v:31]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/HARMONIA repo/code/SPI example/my_IP_core/my_IP_core.srcs/sources_1/new/shift_reg_buffer.v:35]
+INFO: [Synth 8-256] done synthesizing module 'shift_reg_buffer' (1#1) [C:/HARMONIA repo/code/SPI example/my_IP_core/my_IP_core.srcs/sources_1/new/shift_reg_buffer.v:24]
+INFO: [Synth 8-638] synthesizing module 'once_0_Tau_monitor0' [C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/my_ips/stabilization_prop_mon/stabilization_property_mon.v:227]
+	Parameter TAU bound to: 1 - type: integer 
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/my_ips/stabilization_prop_mon/stabilization_property_mon.v:240]
+INFO: [Synth 8-256] done synthesizing module 'once_0_Tau_monitor0' (2#1) [C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/my_ips/stabilization_prop_mon/stabilization_property_mon.v:227]
+INFO: [Synth 8-638] synthesizing module 'once_0_Tau_monitor1' [C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/my_ips/stabilization_prop_mon/stabilization_property_mon.v:320]
+	Parameter TAU bound to: 1 - type: integer 
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/my_ips/stabilization_prop_mon/stabilization_property_mon.v:333]
+INFO: [Synth 8-256] done synthesizing module 'once_0_Tau_monitor1' (3#1) [C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/my_ips/stabilization_prop_mon/stabilization_property_mon.v:320]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/my_ips/stabilization_prop_mon/stabilization_property_mon.v:62]
+INFO: [Synth 8-256] done synthesizing module 'stabilization_property_mon' (4#1) [C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/my_ips/stabilization_prop_mon/stabilization_property_mon.v:11]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 266.527 ; gain = 106.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 266.527 ; gain = 106.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 266.527 ; gain = 106.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 273.641 ; gain = 113.945
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   4 Input      7 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 3     
+	   4 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 6     
+	   4 Input      2 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 8     
+	   2 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module stabilization_property_mon 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module shift_reg_buffer 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+Module once_0_Tau_monitor0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 3     
+	   4 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 2     
+Module once_0_Tau_monitor1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	                7 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      7 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 3     
+	   4 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Loading clock regions from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/zynq/zynq/xc7z020/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/zynq/zynq/xc7z020/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/Vivado/2014.4/data/parts/xilinx/zynq/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/zynq/PinFunctions.xml...
+Loading package from C:/Xilinx/Vivado/2014.4/data\parts/xilinx/zynq/zynq/xc7z020/clg484/Package.xml
+Loading io standards from C:/Xilinx/Vivado/2014.4/data\./parts/xilinx/zynq/IOStandards.xml
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 430.652 ; gain = 270.957
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 430.652 ; gain = 270.957
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 430.652 ; gain = 270.957
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 450.586 ; gain = 290.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 450.586 ; gain = 290.891
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 450.586 ; gain = 290.891
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 450.586 ; gain = 290.891
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 450.586 ; gain = 290.891
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 450.586 ; gain = 290.891
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 450.586 ; gain = 290.891
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 450.586 ; gain = 290.891
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 450.586 ; gain = 290.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT1 |     1|
+|3     |LUT2 |     6|
+|4     |LUT3 |     3|
+|5     |LUT4 |     6|
+|6     |LUT5 |     8|
+|7     |LUT6 |     7|
+|8     |FDRE |    22|
+|9     |IBUF |     4|
+|10    |OBUF |     2|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------------------+--------------------+------+
+|      |Instance             |Module              |Cells |
++------+---------------------+--------------------+------+
+|1     |top                  |                    |    60|
+|2     |  __submon_instance1 |once_0_Tau_monitor0 |    23|
+|3     |  __submon_instance2 |once_0_Tau_monitor1 |    24|
+|4     |  my_sh_reg          |shift_reg_buffer    |     4|
++------+---------------------+--------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 450.586 ; gain = 290.891
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 450.586 ; gain = 271.668
+Synthesis Optimization Complete : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 450.586 ; gain = 290.891
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+19 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 506.043 ; gain = 327.191
+# write_checkpoint -noxdef stabilization_property_mon.dcp
+# catch { report_utilization -file stabilization_property_mon_utilization_synth.rpt -pb stabilization_property_mon_utilization_synth.pb }
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 506.043 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun May 03 22:44:55 2015...

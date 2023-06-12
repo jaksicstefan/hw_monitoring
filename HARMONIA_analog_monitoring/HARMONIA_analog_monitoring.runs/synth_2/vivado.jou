@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Wed Aug 19 21:54:28 2015
+# Process ID: 12440
+# Log file: C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.runs/synth_2/design_1_wrapper.vds
+# Journal file: C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.runs/synth_2\vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl

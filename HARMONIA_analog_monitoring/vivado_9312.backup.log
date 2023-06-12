@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Tue Oct 17 17:08:36 2017
+# Process ID: 2144
+# Log file: C:/HARMONIA_repo/HARMONIA_analog_monitoring/vivado.log
+# Journal file: C:/HARMONIA_repo/HARMONIA_analog_monitoring\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/HARMONIA_repo/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/HARMONIA_repo/HARMONIA_analog_monitoring/my_ips'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.4/data/ip'.
+WARNING: [BD 41-1303] One or more IPs have been locked in the design 'design_1.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:13 . Memory (MB): peak = 664.043 ; gain = 119.906
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Oct 17 18:03:44 2017...

@@ -1,0 +1,1 @@
+not ( DAV and (prev(not DAV))) or ( (not FRE and prev(FRE)) and (prev(FRE and prev(FRE))));

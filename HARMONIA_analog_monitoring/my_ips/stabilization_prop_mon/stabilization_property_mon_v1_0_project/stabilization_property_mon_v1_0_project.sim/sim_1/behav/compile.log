@@ -1,0 +1,10 @@
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/phd/vivado_projects/parallella-hw/fpga/projects/harmonia_analog_monitoring/my_ips/stabilization_prop_mon/src/shift_reg_buffer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift_reg_buffer
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/phd/vivado_projects/parallella-hw/fpga/projects/harmonia_analog_monitoring/my_ips/stabilization_prop_mon/stabilization_property_mon.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module stabilization_property_mon
+INFO: [VRFC 10-311] analyzing module once_A_B_monitor0
+INFO: [VRFC 10-311] analyzing module once_0_Tau_monitor0
+INFO: [VRFC 10-311] analyzing module once_0_Tau_monitor1
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/phd/vivado_projects/parallella-hw/fpga/projects/harmonia_analog_monitoring/my_ips/stabilization_prop_mon/stabilization_property_mon_v1_0_project/stabilization_property_mon_v1_0_project.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

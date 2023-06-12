@@ -1,0 +1,119 @@
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: Stefan Jaksic
+// 
+// Create Date: 04/03/2015 11:03:19 AM
+// Design Name: 
+// Module Name: once_a_b_clocks_alg
+// Project Name: 
+// Target Devices: Zedboard with ZYNQ 7020 
+// Tool Versions: 
+// Description: This code implements template code for monitor for "eventually in the past" operator with bounds [a,b]
+//  "CLOCKS" ALGORITHM
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module ____EVENTUALLY_A_B_CLK_MON_NAME____ #(parameter A=0, B=1) (
+   input clk,
+   input rst,
+   input XXX,
+   output err
+   );
+   
+   //////////////////////////////////////////
+   //calculate CLK_REG_WIDTH and CLK_REG_NUM
+   //__ _CLK_REG_WIDTH_ __ - sirina klok reigstra je log2 (a) .   M = 3
+   //__ _CLK_REG_NUM_ __   - broj klok registara je 2*ceil(b)/a   N = 2 * ceil(a/(b-a+1)) = 6   
+   
+   reg [____CLK_REG_WIDTH____ - 1:0] clocks_array [0:____CLK_REG_NUM____ - 1];   //za eventually[6,9]   
+   
+   reg [____CLK_REG_WIDTH____ - 1:0] i; //counter and address of clock in clock array
+   reg [____CLK_REG_WIDTH____ - 1:0] j; //counter and address of clock in clock array
+
+   integer m; //loop counter
+   integer n; //loop counter
+   
+   reg reg_ev_out; //output signal - registered
+   wire ev_out;
+   
+   localparam VARIABILITY = B - A;
+    
+   eventually_MTLB_monitor#(VARIABILITY) ev_mon (  //include this type in the compilation queue
+       .clk(clk),
+       .rst(rst),
+       .XXX(XXX),
+       .err(ev_out)   						//TODO - consider whether we should actually use error signal.
+   );
+   
+   always @(posedge clk) begin
+    if (rst == 1'b1) begin
+		
+	  for (n = 0; n < ____CLK_REG_NUM____; n = n+1) begin //inc array of clocks
+		clocks_array[n] <= {____CLK_REG_WIDTH____{1'b0}};
+	  end
+	  
+	  j <= 3'b000;
+    end
+    else begin
+        
+      reg_ev_out <= ev_out;
+           
+	  for (m = 0; m < ____CLK_REG_NUM____; m = m+1) begin //inc array of clocks
+	    if (m != j) begin
+			 
+		  if (clocks_array[m] != (A - 1))
+			clocks_array[m] <= (clocks_array[m] + 1'b1);		 
+			 
+        end                                    
+	  end ///for
+		
+	  if(ev_out != reg_ev_out) begin
+			 
+	    clocks_array[j] <= {____CLK_REG_WIDTH____{1'b0}};
+		
+		if (j == (____CLK_REG_NUM____ - 1'b1)) begin
+		  j <= {____CLK_REG_WIDTH____{1'b0}}; //artificial overflow
+		end
+		else begin
+		  j <= j+1; //next clock
+		end                
+      end
+	  else begin                                
+		if (clocks_array[j] != (A - 1))  //TODO - replace A-1 with localparam A_MINUS_1
+		  clocks_array[j] <= (clocks_array[j] + 1'b1);
+	  end				 
+	end  
+  end
+   
+  always @(posedge clk) begin
+    if (rst == 1'b1) begin
+	  i <= {____CLK_REG_WIDTH____{1'b0}}; //pointer init value
+    end
+    else begin
+      if (clocks_array[i] == A-2) begin //stedimo 1 klok
+         //ako je parni klok istekao onda daj jedan output
+         //ako je neparni klok istekao onda daj drugi output
+         if (i == (____CLK_REG_NUM____ - 1'b1)) //broj klokova ovde
+           i <= {____CLK_REG_WIDTH____{1'b0}}; //artificial overflow
+         else
+           i <= i+1; //next clock
+           //out_sig <= i[0:0] ^ 1'b1;
+      end
+    end
+  end
+   
+   
+   
+assign err = i[0:0] ^ 1'b1;
+   
+
+   
+   
+   
+endmodule

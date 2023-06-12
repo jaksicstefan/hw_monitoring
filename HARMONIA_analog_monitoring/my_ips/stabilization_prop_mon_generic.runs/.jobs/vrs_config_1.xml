@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="synth_1" LaunchDir="C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/my_ips/stabilization_prop_mon_generic.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

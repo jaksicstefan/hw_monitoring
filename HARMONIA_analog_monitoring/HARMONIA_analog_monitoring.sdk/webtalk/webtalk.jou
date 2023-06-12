@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 17:18:21 MST 2014
+# 
+# Start of session at: Fri Oct 06 14:08:47 2017
+# Process ID: 8620
+# Log file: C:/HARMONIA_repo/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/webtalk/webtalk.log
+# Journal file: C:/HARMONIA_repo/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

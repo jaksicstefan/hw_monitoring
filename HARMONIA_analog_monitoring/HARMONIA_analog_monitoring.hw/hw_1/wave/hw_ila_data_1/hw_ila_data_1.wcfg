@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/PhD/Vivado_projects/parallella-hw/fpga/projects/HARMONIA_analog_monitoring/HARMONIA_analog_monitoring.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="11" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject db_ref_id="1" fp_name="design_1_i/Dout" type="array">
+      <obj_property name="ElementShortName">design_1_i/Dout[11:0]</obj_property>
+      <obj_property name="ObjectShortName">design_1_i/Dout[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="design_1_i/submon_sig_2" type="logic">
+      <obj_property name="ElementShortName">design_1_i/submon_sig_2</obj_property>
+      <obj_property name="ObjectShortName">design_1_i/submon_sig_2</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="design_1_i/submon_sig_0" type="logic">
+      <obj_property name="ElementShortName">design_1_i/submon_sig_0</obj_property>
+      <obj_property name="ObjectShortName">design_1_i/submon_sig_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="design_1_i/drdy_out" type="logic">
+      <obj_property name="ElementShortName">design_1_i/drdy_out</obj_property>
+      <obj_property name="ObjectShortName">design_1_i/drdy_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="design_1_i/mon_clk_in" type="logic">
+      <obj_property name="ElementShortName">design_1_i/mon_clk_in</obj_property>
+      <obj_property name="ObjectShortName">design_1_i/mon_clk_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="design_1_i/stabilization_property_mon_0/inst/u" type="logic">
+      <obj_property name="ElementShortName">design_1_i/stabilization_property_mon_0/inst/u</obj_property>
+      <obj_property name="ObjectShortName">design_1_i/stabilization_property_mon_0/inst/u</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="design_1_i/mon_err_out" type="logic">
+      <obj_property name="ElementShortName">design_1_i/mon_err_out</obj_property>
+      <obj_property name="ObjectShortName">design_1_i/mon_err_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="design_1_i/mon_pred_in" type="logic">
+      <obj_property name="ElementShortName">design_1_i/mon_pred_in</obj_property>
+      <obj_property name="ObjectShortName">design_1_i/mon_pred_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="design_1_i/mon_rst_in" type="logic">
+      <obj_property name="ElementShortName">design_1_i/mon_rst_in</obj_property>
+      <obj_property name="ObjectShortName">design_1_i/mon_rst_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="design_1_i/mon_trig_in" type="logic">
+      <obj_property name="ElementShortName">design_1_i/mon_trig_in</obj_property>
+      <obj_property name="ObjectShortName">design_1_i/mon_trig_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="design_1_i/xadc_wiz_0_eoc_out" type="logic">
+      <obj_property name="ElementShortName">design_1_i/xadc_wiz_0_eoc_out</obj_property>
+      <obj_property name="ObjectShortName">design_1_i/xadc_wiz_0_eoc_out</obj_property>
+   </wvobject>
+</wave_config>
